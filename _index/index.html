@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>choicera</title>
+		<meta name="description" content="TBD">
+		<meta name="author" content="Choicera">
+		<meta name="robots" content="index, follow">
+		<meta name="theme-color" content="#052D36">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://choicera.com/_index/">
+		<meta property="og:title" content="choicera">
+		<meta property="og:description" content="TBD">
+		<meta property="og:image" content="https://choicera.com/img/logo-large-hexagon.svg">
+		<meta property="og:site_name" content="choicera">
+		<meta property="og:locale" content="en">
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://choicera.com/_index/">
+		<meta property="twitter:title" content="choicera">
+		<meta property="twitter:description" content="TBD">
+		<meta property="twitter:image" content="https://choicera.com/img/logo-large-hexagon.svg">
+		<link rel="canonical" href="https://choicera.com/_index/">
+		<link rel="preload" href="/fonts/fjord/Fjord-One.woff2" as="font" type="font/woff2" crossorigin="">
+		<link rel="preload" href="/fonts/roboto/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+		<link rel="preload" href="/img/logo-large-hexagon.svg" as="image">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Choicera - Personalized Health Supplements">
+
+		
+		<style>*,::after,::before{box-sizing:border-box}*{margin:0}@media (prefers-reduced-motion:no-preference){html{interpolate-size:allow-keywords}}body{line-height:1.5;-webkit-font-smoothing:antialiased}canvas,img,picture,svg,video{display:block;max-width:100%}button,input,select,textarea{font:inherit}h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word}p{text-wrap:pretty}h1,h2,h3,h4,h5,h6{text-wrap:balance}#__next,#root{isolation:isolate}@font-face{font-family:Fjord;src:url("/fonts/fjord/Fjord-One.woff2") format("woff2"),url("/fonts/fjord/Fjord-One.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Roboto;src:url("/fonts/roboto/Roboto-Light.woff2") format("woff2"),url("/fonts/roboto/Roboto-Light.woff") format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:Roboto;src:url("/fonts/roboto/Roboto-Regular.woff2") format("woff2"),url("/fonts/roboto/Roboto-Regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}.t-display-small{font-family:var(--md-sys-typescale-display-small-font);font-size:var(--md-sys-typescale-display-small-size);font-weight:var(--md-sys-typescale-display-small-weight);line-height:var(--md-sys-typescale-display-small-line-height);letter-spacing:var(--md-sys-typescale-display-small-tracking)}.t-title-medium{font-family:var(--md-sys-typescale-title-medium-font);font-size:var(--md-sys-typescale-title-medium-size);font-weight:var(--md-sys-typescale-title-medium-weight);line-height:var(--md-sys-typescale-title-medium-line-height);letter-spacing:var(--md-sys-typescale-title-medium-tracking)}.t-title-small{font-family:var(--md-sys-typescale-title-small-font);font-size:var(--md-sys-typescale-title-small-size);font-weight:var(--md-sys-typescale-title-small-weight);line-height:var(--md-sys-typescale-title-small-line-height);letter-spacing:var(--md-sys-typescale-title-small-tracking)}.t-body-medium{font-family:var(--md-sys-typescale-body-medium-font);font-size:var(--md-sys-typescale-body-medium-size);font-weight:var(--md-sys-typescale-body-medium-weight);line-height:var(--md-sys-typescale-body-medium-line-height);letter-spacing:var(--md-sys-typescale-body-medium-tracking)}:root{--md-sys-typescale-display-large-font:var(--md-ref-typeface-brand);--md-sys-typescale-display-large-line-height:4rem;--md-sys-typescale-display-large-size:3.5625rem;--md-sys-typescale-display-large-tracking:0.015625rem;--md-sys-typescale-display-large-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-display-medium-font:var(--md-ref-typeface-brand);--md-sys-typescale-display-medium-line-height:3.25rem;--md-sys-typescale-display-medium-size:2.8125rem;--md-sys-typescale-display-medium-tracking:0;--md-sys-typescale-display-medium-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-display-small-font:var(--md-ref-typeface-brand);--md-sys-typescale-display-small-line-height:2.75rem;--md-sys-typescale-display-small-size:2.25rem;--md-sys-typescale-display-small-tracking:0;--md-sys-typescale-display-small-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-headline-large-font:var(--md-ref-typeface-brand);--md-sys-typescale-headline-large-line-height:2.5rem;--md-sys-typescale-headline-large-size:2rem;--md-sys-typescale-headline-large-tracking:0;--md-sys-typescale-headline-large-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-headline-medium-font:var(--md-ref-typeface-brand);--md-sys-typescale-headline-medium-line-height:2.25rem;--md-sys-typescale-headline-medium-size:1.75rem;--md-sys-typescale-headline-medium-tracking:0;--md-sys-typescale-headline-medium-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-headline-small-font:var(--md-ref-typeface-brand);--md-sys-typescale-headline-small-line-height:2rem;--md-sys-typescale-headline-small-size:1.5rem;--md-sys-typescale-headline-small-tracking:0;--md-sys-typescale-headline-small-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-title-large-font:var(--md-ref-typeface-brand);--md-sys-typescale-title-large-line-height:1.75rem;--md-sys-typescale-title-large-size:1.375rem;--md-sys-typescale-title-large-tracking:0;--md-sys-typescale-title-large-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-title-medium-font:var(--md-ref-typeface-brand);--md-sys-typescale-title-medium-line-height:1.5rem;--md-sys-typescale-title-medium-size:1rem;--md-sys-typescale-title-medium-tracking:0.009375rem;--md-sys-typescale-title-medium-weight:var(--md-ref-typeface-weight-medium);--md-sys-typescale-title-small-font:var(--md-ref-typeface-brand);--md-sys-typescale-title-small-line-height:1.25rem;--md-sys-typescale-title-small-size:0.875rem;--md-sys-typescale-title-small-tracking:0.00625rem;--md-sys-typescale-title-small-weight:var(--md-ref-typeface-weight-medium);--md-sys-typescale-label-large-font:var(--md-ref-typeface-brand);--md-sys-typescale-label-large-line-height:1.25rem;--md-sys-typescale-label-large-size:0.875rem;--md-sys-typescale-label-large-tracking:0.00625rem;--md-sys-typescale-label-large-weight:var(--md-ref-typeface-weight-medium);--md-sys-typescale-label-medium-font:var(--md-ref-typeface-brand);--md-sys-typescale-label-medium-line-height:1rem;--md-sys-typescale-label-medium-size:0.75rem;--md-sys-typescale-label-medium-tracking:0.03125rem;--md-sys-typescale-label-medium-weight:var(--md-ref-typeface-weight-medium);--md-sys-typescale-label-small-font:var(--md-ref-typeface-brand);--md-sys-typescale-label-small-line-height:1rem;--md-sys-typescale-label-small-size:0.6875rem;--md-sys-typescale-label-small-tracking:0.03125rem;--md-sys-typescale-label-small-weight:var(--md-ref-typeface-weight-medium);--md-sys-typescale-body-large-font:var(--md-ref-typeface-brand);--md-sys-typescale-body-large-line-height:1.5rem;--md-sys-typescale-body-large-size:1rem;--md-sys-typescale-body-large-tracking:0.03125rem;--md-sys-typescale-body-large-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-body-medium-font:var(--md-ref-typeface-brand);--md-sys-typescale-body-medium-line-height:1.25rem;--md-sys-typescale-body-medium-size:0.875rem;--md-sys-typescale-body-medium-tracking:0.015625rem;--md-sys-typescale-body-medium-weight:var(--md-ref-typeface-weight-regular);--md-sys-typescale-body-small-font:var(--md-ref-typeface-brand);--md-sys-typescale-body-small-line-height:1rem;--md-sys-typescale-body-small-size:0.75rem;--md-sys-typescale-body-small-tracking:0.025rem;--md-sys-typescale-body-small-weight:var(--md-ref-typeface-weight-regular)}:root{--md-ref-typeface-brand:Roboto,sans-serif;--md-ref-typeface-weight-regular:400;--md-ref-typeface-weight-medium:500}:root,:root[data-theme-module=default]{--md-ref-primary-primary0:#000000;--md-ref-primary-primary10:#001f24;--md-ref-primary-primary20:#00363d;--md-ref-primary-primary30:#004f58;--md-ref-primary-primary40:#006874;--md-ref-primary-primary50:#008392;--md-ref-primary-primary60:#009fb1;--md-ref-primary-primary67:#09b4c7;--md-ref-primary-primary70:#22bccf;--md-ref-primary-primary80:#4fd8eb;--md-ref-primary-primary90:#98f0ff;--md-ref-primary-primary100:#ffffff;--md-ref-secondary-secondary0:#000000;--md-ref-secondary-secondary10:#061f23;--md-ref-secondary-secondary20:#1c3438;--md-ref-secondary-secondary30:#334a4f;--md-ref-secondary-secondary40:#4b6267;--md-ref-secondary-secondary50:#637b80;--md-ref-secondary-secondary60:#7c959a;--md-ref-secondary-secondary70:#97b0b5;--md-ref-secondary-secondary80:#b2cbd0;--md-ref-secondary-secondary90:#cde7ed;--md-ref-secondary-secondary100:#ffffff;--md-ref-tertiary-tertiary0:#000000;--md-ref-tertiary-tertiary10:#380c00;--md-ref-tertiary-tertiary20:#5c1a00;--md-ref-tertiary-tertiary30:#822800;--md-ref-tertiary-tertiary40:#a43c12;--md-ref-tertiary-tertiary50:#c55429;--md-ref-tertiary-tertiary60:#e66d3f;--md-ref-tertiary-tertiary67:#ff7f50;--md-ref-tertiary-tertiary70:#ff8b62;--md-ref-tertiary-tertiary80:#ffb59c;--md-ref-tertiary-tertiary90:#ffdbcf;--md-ref-tertiary-tertiary100:#ffffff;--md-ref-error-error0:#000000;--md-ref-error-error10:#410002;--md-ref-error-error20:#690005;--md-ref-error-error30:#93000a;--md-ref-error-error40:#ba1a1a;--md-ref-error-error50:#de3730;--md-ref-error-error60:#ff5449;--md-ref-error-error70:#ff897d;--md-ref-error-error80:#ffb4ab;--md-ref-error-error90:#ffdad6;--md-ref-error-error100:#ffffff;--md-ref-neutral-neutral0:#000000;--md-ref-neutral-neutral4:#0a0f0f;--md-ref-neutral-neutral6:#0f1414;--md-ref-neutral-neutral10:#171c1d;--md-ref-neutral-neutral12:#1b2021;--md-ref-neutral-neutral17:#262b2b;--md-ref-neutral-neutral20:#2c3131;--md-ref-neutral-neutral22:#313636;--md-ref-neutral-neutral24:#353a3a;--md-ref-neutral-neutral30:#434848;--md-ref-neutral-neutral40:#5a5f5f;--md-ref-neutral-neutral50:#737878;--md-ref-neutral-neutral60:#8d9292;--md-ref-neutral-neutral70:#a7acac;--md-ref-neutral-neutral80:#c3c7c7;--md-ref-neutral-neutral87:#d6dbdb;--md-ref-neutral-neutral90:#dfe3e3;--md-ref-neutral-neutral92:#e5e9e9;--md-ref-neutral-neutral94:#eaefee;--md-ref-neutral-neutral95:#edf2f1;--md-ref-neutral-neutral96:#f0f4f4;--md-ref-neutral-neutral98:#f6fafa;--md-ref-neutral-neutral100:#ffffff;--md-ref-neutralVariant-neutralVariant0:#000000;--md-ref-neutralVariant-neutralVariant10:#141d1f;--md-ref-neutralVariant-neutralVariant20:#283234;--md-ref-neutralVariant-neutralVariant30:#3f484a;--md-ref-neutralVariant-neutralVariant40:#566062;--md-ref-neutralVariant-neutralVariant50:#6f797b;--md-ref-neutralVariant-neutralVariant60:#889295;--md-ref-neutralVariant-neutralVariant70:#a3adaf;--md-ref-neutralVariant-neutralVariant80:#bec8ca;--md-ref-neutralVariant-neutralVariant90:#dae4e6;--md-ref-neutralVariant-neutralVariant100:#ffffff}:root{--md-sys-color-primary-palette-key-color:var(--md-ref-primary-primary67);--md-sys-color-secondary-palette-key-color:var(--md-ref-secondary-secondary50);--md-sys-color-tertiary-palette-key-color:var(--md-ref-tertiary-tertiary67);--md-sys-color-neutral-palette-key-color:var(--md-ref-neutral-neutral50);--md-sys-color-neutral-variant-palette-key-color:var(--md-ref-neutralVariant-neutralVariant50);--md-sys-color-background:var(--md-ref-neutral-neutral98);--md-sys-color-on-background:var(--md-ref-neutral-neutral10);--md-sys-color-surface:var(--md-ref-neutral-neutral98);--md-sys-color-surface-dim:var(--md-ref-neutral-neutral87);--md-sys-color-surface-bright:var(--md-ref-neutral-neutral98);--md-sys-color-surface-container-lowest:var(--md-ref-neutral-neutral100);--md-sys-color-surface-container-low:var(--md-ref-neutral-neutral96);--md-sys-color-surface-container:var(--md-ref-neutral-neutral94);--md-sys-color-surface-container-high:var(--md-ref-neutral-neutral92);--md-sys-color-surface-container-highest:var(--md-ref-neutral-neutral90);--md-sys-color-on-surface:var(--md-ref-neutral-neutral10);--md-sys-color-surface-variant:var(--md-ref-neutralVariant-neutralVariant90);--md-sys-color-on-surface-variant:var(--md-ref-neutralVariant-neutralVariant30);--md-sys-color-inverse-surface:var(--md-ref-neutral-neutral20);--md-sys-color-inverse-on-surface:var(--md-ref-neutral-neutral95);--md-sys-color-outline:var(--md-ref-neutralVariant-neutralVariant50);--md-sys-color-outline-variant:var(--md-ref-neutralVariant-neutralVariant80);--md-sys-color-shadow:var(--md-ref-neutral-neutral0);--md-sys-color-scrim:var(--md-ref-neutral-neutral0);--md-sys-color-surface-tint:var(--md-ref-primary-primary40);--md-sys-color-primary:var(--md-ref-primary-primary40);--md-sys-color-on-primary:var(--md-ref-primary-primary100);--md-sys-color-primary-container:var(--md-ref-primary-primary90);--md-sys-color-on-primary-container:var(--md-ref-primary-primary30);--md-sys-color-inverse-primary:var(--md-ref-primary-primary80);--md-sys-color-secondary:var(--md-ref-secondary-secondary40);--md-sys-color-on-secondary:var(--md-ref-secondary-secondary100);--md-sys-color-secondary-container:var(--md-ref-secondary-secondary90);--md-sys-color-on-secondary-container:var(--md-ref-secondary-secondary30);--md-sys-color-tertiary:var(--md-ref-tertiary-tertiary40);--md-sys-color-on-tertiary:var(--md-ref-tertiary-tertiary100);--md-sys-color-tertiary-container:var(--md-ref-tertiary-tertiary90);--md-sys-color-on-tertiary-container:var(--md-ref-tertiary-tertiary30);--md-sys-color-error:var(--md-ref-error-error40);--md-sys-color-on-error:var(--md-ref-error-error100);--md-sys-color-error-container:var(--md-ref-error-error90);--md-sys-color-on-error-container:var(--md-ref-error-error30);--md-sys-color-primary-fixed:var(--md-ref-primary-primary90);--md-sys-color-primary-fixed-dim:var(--md-ref-primary-primary80);--md-sys-color-on-primary-fixed:var(--md-ref-primary-primary10);--md-sys-color-on-primary-fixed-variant:var(--md-ref-primary-primary30);--md-sys-color-secondary-fixed:var(--md-ref-secondary-secondary90);--md-sys-color-secondary-fixed-dim:var(--md-ref-secondary-secondary80);--md-sys-color-on-secondary-fixed:var(--md-ref-secondary-secondary10);--md-sys-color-on-secondary-fixed-variant:var(--md-ref-secondary-secondary30);--md-sys-color-tertiary-fixed:var(--md-ref-tertiary-tertiary90);--md-sys-color-tertiary-fixed-dim:var(--md-ref-tertiary-tertiary80);--md-sys-color-on-tertiary-fixed:var(--md-ref-tertiary-tertiary10);--md-sys-color-on-tertiary-fixed-variant:var(--md-ref-tertiary-tertiary30)}html{scroll-behavior:smooth}body{font-family:Roboto,system-ui,sans-serif;background:linear-gradient(to bottom,#fff,#f3ece8),#082e33;min-height:100svh}a{text-decoration:none;color:var(--md-sys-color-on-surface)}.page-content{height:100svh;padding:6rem 3rem}.hero-cover{position:absolute;inset:0;z-index:-1}.hero-cover img{width:100%;height:100svh;pointer-events:none;object-fit:cover}.hero{height:100svh;position:relative;color:var(--md-sys-color-on-primary);display:flex;flex-direction:column;align-items:center;container:hero/inline-size}@media screen and (max-width:1868px) and (orientation:landscape){.hero-cover img{height:100svw}.hero{height:100svw}}.hero .top{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;flex:1}.hero .bottom{display:flex;flex-direction:column;width:100%;align-items:center;flex:1;justify-content:space-between}.hero .ai-button{translate:0 50%}.hero-logo{position:relative;--hero-logo-size:22cqmax;width:var(--hero-logo-size);height:var(--hero-logo-size);aspect-ratio:1}.hero-logo img{width:100%;height:100%;pointer-events:none;object-fit:contain}.hero h1{font-family:Fjord;font-size:10cqmax;font-weight:400;margin-bottom:1.5rem}.hero .subtitle{font-size:3.5cqmax;font-family:Fjord;white-space:nowrap}@media (max-width:600px){.hero .subtitle{font-size:3cqmax}}.hero .subtitle span:last-child{background:var(--md-sys-color-surface-container-lowest);color:var(--md-sys-color-primary);padding:.5cqmax 1.5cqmax;border-radius:8cqmax;white-space:nowrap}.hero .description{text-align:center;padding:1rem 2rem;opacity:.6;text-shadow:.0625rem .0625rem 0 var(--md-sys-color-primary);bottom:0}@media (min-width:1024px){.hero-logo{--hero-logo-size:10rem}.hero h1{font-size:6rem}.hero .subtitle{font-size:2rem}}.appbar__list{display:flex;gap:1rem;text-transform:uppercase;list-style:none}.appbar{background:color-mix(in srgb,var(--md-sys-color-primary),rgba(0,0,0,.4) 60%);backdrop-filter:blur(0.5rem);border-radius:3.75rem;display:flex;gap:1rem;padding:0 .25rem 0 2rem;min-height:3rem;align-items:center}.appbar__logo{width:86px;height:20px}.appbar .appbar__logo{align-self:center;translate:0 -0.25rem}.appbar__list li{padding:.5rem 1rem;transition:opacity .3s ease;display:grid;place-items:center}@media (hover){.appbar__list li:hover{opacity:1}}.appbar__list{margin:0;padding:0}.appbar__list li a{color:var(--md-sys-color-on-primary)}a.appbar__menu-option{color:var(--md-sys-color-on-primary)}@media (max-width:880px){.appbar{padding:0 .25rem 0 .25rem}.appbar__list .appbar__item{display:none}}.appbar-container{position:fixed;top:2rem;left:0;right:0;display:grid;place-items:center;z-index:1000}li.appbar__lang-selector{position:relative;padding:0}.appbar__lang-button{background:0 0;border:none;color:var(--md-sys-color-on-primary);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:.5rem;border-radius:50%;transition:background-color .3s ease,opacity .3s ease;opacity:.6;width:2.5rem;height:2.5rem}.appbar__lang-button:hover{background-color:rgba(255,255,255,.1);opacity:1}.appbar__lang-button[aria-expanded=true]{background-color:rgba(255,255,255,.2);opacity:1}.appbar__lang-icon{width:20px;height:20px;flex-shrink:0}.appbar__current-lang{font-size:.875rem;font-weight:500;text-transform:uppercase}.appbar__lang-overlay{position:absolute;top:100%;right:0;margin-top:.5rem;background:color-mix(in srgb,var(--md-sys-color-primary),#000 40%);color:var(--md-sys-color-on-surface);border-radius:.75rem;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);opacity:0;visibility:hidden;transform:translateY(-10px);transition:opacity .2s ease,visibility .2s ease,transform .2s ease;z-index:1001;min-width:9rem}.appbar__lang-overlay.is-open{opacity:1;visibility:visible;transform:translateY(0)}.appbar__lang-overlay-content{padding:.5rem 0}.appbar__lang-option{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;color:var(--md-sys-color-on-surface);text-decoration:none;border:none;background:0 0;width:100%;text-align:left;cursor:pointer;transition:background-color .2s ease}@media (hover){.appbar__lang-option:hover{background-color:rgba(255,255,255,.1)}}.appbar__lang-option.is-active{background-color:color-mix(in srgb,var(--md-sys-color-primary-container),transparent 90%);color:var(--md-sys-color-on-primary);font-weight:600}.appbar__lang-name{font-size:.875rem;font-weight:400}.appbar__lang-flag{min-width:1.25rem;width:1.25rem!important;height:.9375rem!important;object-fit:cover;border-radius:.125rem;flex-shrink:0;align-self:center;display:block}.appbar__menu-button{background:0 0;border:none;color:var(--md-sys-color-on-primary);cursor:pointer;display:none;align-items:center;justify-content:center;padding:.5rem;border-radius:50%;transition:background-color .3s ease,opacity .3s ease;opacity:.6;width:2.5rem;height:2.5rem}@media (max-width:880px){.appbar__menu-button{display:flex}}@media (max-width:600px){.appbar-container{top:.5rem}}.appbar__menu-button:hover{background-color:rgba(255,255,255,.1);opacity:1}.appbar__menu-button[aria-expanded=true]{background-color:rgba(255,255,255,.2);opacity:1}.appbar__menu-overlay{position:absolute;top:100%;left:0;right:0;margin-top:.5rem;background:color-mix(in srgb,var(--md-sys-color-primary),#000 40%);color:var(--md-sys-color-on-surface);border-radius:.75rem;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);opacity:0;visibility:hidden;transform:translateY(-10px);transition:opacity .2s ease,visibility .2s ease,transform .2s ease;z-index:1001}@media (min-width:881px){.appbar__menu-overlay{display:none}}.appbar__menu-overlay.is-open{opacity:1;visibility:visible;transform:translateY(0)}.appbar__menu-overlay-content{padding:.5rem 0}.appbar__menu-option{display:flex;align-items:center;gap:.75rem;padding:.75rem 1rem;color:var(--md-sys-color-on-surface);text-decoration:none;border:none;background:0 0;width:100%;text-align:left;cursor:pointer;transition:background-color .2s ease}@media (hover){.appbar__menu-option:hover{background-color:rgba(255,255,255,.1)}}.appbar__menu-option.is-active{background-color:color-mix(in srgb,var(--md-sys-color-primary-container),transparent 90%);color:var(--md-sys-color-on-primary);font-weight:600}.appbar__menu-name{font-size:.875rem;font-weight:400;text-transform:uppercase}.how h2{font-weight:300;text-align:center}.how h2 strong{font-weight:500}.how{display:grid;grid-template-columns:1fr;gap:3rem;padding:4rem}.how .part{display:grid;place-items:center}.how svg{min-width:2rem;scale:0.8}.how .steps{list-style-type:none;padding:0;gap:1.5rem;display:flex;flex-wrap:wrap;justify-content:center}.how .step{background:var(--md-sys-color-surface-container-high);border-radius:2rem;padding:0 1.25rem 0 0;display:flex;align-items:center;gap:1rem}.how .step .index{font-size:1.25rem;font-weight:700;background:var(--md-sys-color-surface-container-highest);height:100%;padding:.5rem 1rem;border-radius:2rem 0 0 2rem;color:var(--md-sys-color-on-surface-variant)}.how .step .title{white-space:nowrap;font-weight:300}.how .step.primary{background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-primary-container)}.how .step.primary .index{background:var(--md-sys-color-primary-fixed-dim);color:var(--md-sys-color-on-primary-fixed-dim)}.how .step.secondary{background:var(--md-sys-color-secondary-container);color:var(--md-sys-color-on-secondary-container)}.how .step.secondary .index{background:var(--md-sys-color-secondary-fixed-dim);color:var(--md-sys-color-on-secondary-fixed-dim)}.how .step.tertiary{background:var(--md-sys-color-tertiary-container);color:var(--md-sys-color-on-tertiary-container)}.how .step.tertiary .index{background:var(--md-sys-color-tertiary-fixed-dim);color:var(--md-sys-color-on-tertiary-fixed-dim)}.how .step.dim{background:var(--md-sys-color-surface-container);color:var(--md-sys-color-on-surface-container)}.how .step.dim .index{background:var(--md-sys-color-surface-variant);color:var(--md-sys-color-on-surface-variant)}@media (max-width:600px){.how{grid-template-columns:1fr;background:unset}.how .step{width:100%;gap:.5rem;height:3rem}.how .step .title{font-size:1rem;line-height:1.25rem}.how h2{font-size:1.5rem;line-height:2rem;text-align:center}}.pain-points{display:flex;flex-direction:column;align-items:center;padding:0 2rem 4rem 2rem;max-width:80rem;margin:0 auto;gap:2rem}.pain-points h2{text-align:center;font-weight:300;margin-bottom:0}.pain-points-subtitle{text-align:center;color:var(--md-sys-color-on-surface-variant);font-size:1.125rem;line-height:1.6;max-width:40rem;margin:0}.pain-points-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;width:100%;max-width:60rem}.pain-point-card{display:flex;flex-direction:column;background:var(--md-sys-color-surface-container-lowest);border-radius:1.25rem;padding:2rem;box-shadow:0 2.824px 52.24px 0 rgba(0,0,0,.21);transition:transform .2s ease,box-shadow .2s ease}.pain-point-header{display:flex;align-items:center;justify-content:center;gap:1rem;margin-bottom:1.5rem}.pain-point-card:hover{transform:translateY(-.25rem);box-shadow:0 2px 4px 0 rgba(0,0,0,.1),0 4px 8px 0 rgba(0,0,0,.1),0 8px 16px 0 rgba(0,0,0,.1),0 16px 32px 0 rgba(0,0,0,.1),0 32px 64px 0 rgba(0,0,0,.1),0 64px 128px 0 rgba(0,0,0,.1)}.pain-point-icon{display:flex;align-items:center;justify-content:center;width:3rem;height:3rem;background:var(--md-sys-color-primary-container);border-radius:.75rem;color:var(--md-sys-color-on-primary-container);flex-shrink:0}.pain-point-icon-1{background:var(--md-sys-color-surface-container);color:var(--md-sys-color-on-surface)}.pain-point-icon-2{background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-primary-container)}.pain-point-icon-3{background:var(--md-sys-color-secondary-container);color:var(--md-sys-color-on-secondary-container)}.pain-point-icon-4{background:var(--md-sys-color-tertiary-container);color:var(--md-sys-color-on-tertiary-container)}.pain-point-icon svg{width:1.5rem;height:1.5rem}.pain-point-content{flex:1;display:flex;flex-direction:column;gap:1rem}.pain-point-title{font-size:1.25rem;font-weight:600;color:var(--md-sys-color-on-surface);margin:0;line-height:1.4;flex:1}.pain-point-description{color:var(--md-sys-color-on-surface-variant);line-height:1.6;margin:0;flex:1}.pain-point-button{align-self:flex-end;background:var(--md-sys-color-primary);color:var(--md-sys-color-on-primary);border:none;border-radius:2rem;padding:.75rem 1.5rem;font-size:.875rem;font-weight:500;cursor:pointer;transition:all .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.15)}.pain-point-button:hover{background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-primary-container);transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.2)}.pain-point-button:active{transform:translateY(0)}@media (max-width:768px){.pain-points{padding:0 2rem 3rem 2rem}.pain-points-grid{grid-template-columns:1fr;gap:1.5rem}.pain-point-card{padding:1.5rem}.pain-point-icon{width:2.5rem;height:2.5rem}.pain-point-icon svg{width:1.25rem;height:1.25rem}.pain-point-title{font-size:1.125rem}}@media (max-width:480px){.pain-points{padding:2rem 2rem}.pain-point-card{padding:1.25rem}.pain-point-button{width:100%;text-align:center}}.categories{display:flex;flex-direction:column;gap:2rem;align-items:center;padding:1rem 0 4rem 0}.categories-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;padding:1.5rem;max-width:50rem}.categories h2{font-weight:300}.category-item{display:flex;align-items:center;gap:.75rem;padding:1.5rem;background:var(--md-sys-color-surface-container-lowest);border-radius:1.25rem;text-decoration:none;color:var(--md-sys-color-on-surface);transition:all .2s ease;min-height:6.25rem;box-shadow:0 1px 2px 0 rgba(0,0,0,.07),0 2px 4px 0 rgba(0,0,0,.07),0 4px 8px 0 rgba(0,0,0,.07),0 8px 16px 0 rgba(0,0,0,.07),0 16px 32px 0 rgba(0,0,0,.07),0 32px 64px 0 rgba(0,0,0,.07)}@media (hover){.category-item:hover{background:#e9ecef}}.category-icon{display:flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;flex-shrink:0;color:var(--md-sys-color-on-surface-variant)}.category-item:nth-child(3n+1) .category-icon{background:var(--md-sys-color-primary-container);border-radius:.625rem;padding:.25rem;color:var(--md-sys-color-on-primary-container)}.category-item:nth-child(3n+2) .category-icon{background:var(--md-sys-color-secondary-container);border-radius:.625rem;padding:.25rem;color:var(--md-sys-color-on-secondary-container)}.category-item:nth-child(3n+3) .category-icon{background:var(--md-sys-color-tertiary-container);border-radius:.625rem;padding:.25rem;color:var(--md-sys-color-on-tertiary-container)}.category-icon svg{width:100%;height:100%}.category-text{font-weight:500;font-size:.95rem;line-height:1.4;flex:1}.category-item .arrow{width:1.125rem;height:1.0625rem;color:var(--md-sys-color-on-surface-variant);transition:transform .2s ease}@media (hover){.category-item:hover .arrow{transform:translateX(.25rem)}}.custom-input-section{width:100%;padding:0 2rem 2rem 2rem;max-width:50rem}.custom-input-section .arrow{rotate:-90deg}.custom-input-section h3{text-align:center;margin-bottom:1.5rem;color:var(--md-sys-color-on-surface)}.input-container{position:relative;display:flex;align-items:flex-end;gap:0;background:var(--md-sys-color-surface-container-lowest);border:2px solid var(--md-sys-color-outline);border-radius:1rem;padding:.75rem;transition:border-color .2s ease,box-shadow .2s ease}.input-container:focus-within{border-color:var(--md-sys-color-primary);box-shadow:0 0 0 3px rgba(var(--md-sys-color-primary-rgb),.1)}.custom-textarea{width:100%;padding:.25rem .75rem;border:none;background:0 0;color:var(--md-sys-color-on-surface);font-family:inherit;font-size:1rem;line-height:1.5;resize:vertical;min-height:3rem;outline:0}.custom-textarea::placeholder{color:var(--md-sys-color-on-surface-variant);opacity:.7}.send-button{display:flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;border:none;border-radius:50%;background:var(--md-sys-color-primary);color:var(--md-sys-color-on-primary);cursor:pointer;transition:all .2s ease;flex-shrink:0;box-shadow:0 2px 8px rgba(0,0,0,.15);margin-left:.5rem}.send-button:disabled{background:var(--md-sys-color-surface-variant);color:var(--md-sys-color-on-surface-variant);cursor:not-allowed;box-shadow:none}.send-button:not(:disabled):hover{background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-primary-container);transform:scale(1.05)}.send-button:not(:disabled):active{transform:scale(.95)}.send-button svg{width:1rem;height:1rem}.scroll-to-top{position:fixed;bottom:2rem;left:2rem;width:2.5rem;height:3.5rem;border:none;border-radius:3.5rem;background:var(--md-sys-color-secondary);color:var(--md-sys-color-on-secondary);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.15);transition:all .3s ease;opacity:0;visibility:hidden;transform:translateY(1rem);z-index:1000}.scroll-to-top .arrow{rotate:-90deg}.scroll-to-top.visible{opacity:1;visibility:visible;transform:translateY(0)}.scroll-to-top:hover{background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-primary-container);transform:translateY(-.25rem);box-shadow:0 6px 16px rgba(0,0,0,.2)}.scroll-to-top:active{transform:translateY(0)}.scroll-to-top svg{width:1.5rem;height:1.5rem}@media (max-width:768px){.categories-grid{grid-template-columns:1fr;gap:1rem;padding:2rem}.category-item{min-height:4rem}.category-icon{width:28px;height:28px}.category-text{font-size:.9rem}}@media (max-width:480px){.categories-grid{padding:.5rem}.category-item{border-radius:1rem;padding:1rem;height:5rem;gap:.5rem}.scroll-to-top{bottom:1rem;right:1rem;width:2.5rem;height:3rem}.scroll-to-top svg{width:1.25rem;height:1.25rem}}.trust{display:flex;flex-direction:column;align-items:center;padding:4rem 2rem;max-width:80rem;margin:0 auto;gap:4rem}.trust-section{width:100%;display:flex;flex-direction:column;align-items:center;gap:2rem}.trust-title{text-align:center;font-size:2rem;font-weight:300;color:var(--md-sys-color-on-surface);margin:0}.trust-grid{display:grid;grid-template-columns:1fr;gap:2rem;width:100%;max-width:60rem}.trust-card{display:flex;gap:1.5rem;align-items:center}.trust-card:nth-child(2n){flex-direction:row-reverse}.trust-card:nth-child(2n) .trust-content{align-items:flex-end}.trust-image{flex-shrink:0;position:relative}.trust .trust-photo{width:18rem;aspect-ratio:1;height:unset}.trust-photo{width:4rem;height:4rem;object-fit:cover;clip-path:polygon(98.66024% 45%,99.39693% 46.5798%,99.84808% 48.26352%,100% 50%,99.84808% 51.73648%,99.39693% 53.4202%,98.66025% 55%,78.66025% 89.64102%,77.66044% 91.06889%,76.42788% 92.30146%,75% 93.30127%,73.4202% 94.03794%,71.73648% 94.48909%,70% 94.64102%,30% 94.64102%,28.26352% 94.48909%,26.5798% 94.03794%,25% 93.30127%,23.57212% 92.30146%,22.33956% 91.06889%,21.33975% 89.64102%,1.33975% 55%,0.60307% 53.4202%,0.15192% 51.73648%,0% 50%,0.15192% 48.26352%,0.60307% 46.5798%,1.33975% 45%,21.33975% 10.35898%,22.33956% 8.93111%,23.57212% 7.69854%,25% 6.69873%,26.5798% 5.96206%,28.26352% 5.51091%,30% 5.35898%,70% 5.35898%,71.73648% 5.51091%,73.4202% 5.96206%,75% 6.69873%,76.42788% 7.69854%,77.66044% 8.93111%,78.66025% 10.35898%)}.trust-content{flex:1;display:flex;flex-direction:column;gap:.75rem}.trust-attribution{position:absolute;bottom:1.5rem;left:25%;min-width:7rem;display:flex;flex-direction:column;align-items:center;gap:.25rem;background:var(--md-sys-color-surface-container-lowest);padding:.25rem .75rem;border-radius:.75rem;box-shadow:0 2px 8px 0 rgba(0,0,0,.1);white-space:nowrap}.trust-name{font-weight:600;color:var(--md-sys-color-on-surface);font-size:.875rem}.trust-details{display:flex;flex-direction:row;align-items:center;gap:.5rem}.trust-job-title{color:var(--md-sys-color-on-surface-variant);font-size:.75rem}.trust-location{color:var(--md-sys-color-on-surface-variant);font-size:.75rem}.trust-flag{width:.75rem;min-width:.75rem;height:.5rem;border-radius:.125rem}.trust-quote{font-size:1.125rem;line-height:1.6;max-width:30rem;color:var(--md-sys-color-on-surface);margin:0;font-style:italic;position:relative}.trust-quote:before{content:'"';font-size:6rem;position:absolute;top:0;line-height:0}@media (max-width:768px){.trust{padding:3rem 1rem;gap:3rem}.trust-quote{text-align:center}.trust-card{flex-direction:column!important}.testimonials-grid{grid-template-columns:1fr;gap:1.5rem}.experts-grid,.influencers-grid{grid-template-columns:1fr;gap:1.5rem}.testimonial-card{flex-direction:column;align-items:center;text-align:center;gap:1rem}.testimonial-attribution{justify-content:center}}@media (max-width:480px){.trust{padding:2rem 1rem;gap:2rem}.testimonial-quote{font-size:1rem}.trust-card{flex-direction:column}}.footer{background:var(--md-sys-color-primary);border-radius:4rem 4rem 0 0;margin-top:4rem;position:relative;overflow:hidden;font-weight:300;min-height:50vh;margin:0 2rem}.footer-bg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0}.footer-bg picture{width:100%;height:100%;display:block}.footer-bg-img{width:100%;height:100%;object-fit:cover;object-position:center}.footer-content{display:flex;flex-direction:column;padding-top:4rem;gap:3rem;align-items:center;position:relative}.footer-logo{position:relative;width:8rem;height:8rem;aspect-ratio:1;margin:0 auto 1.5rem auto}.footer-logo img{width:100%;height:100%;pointer-events:none;object-fit:contain}.footer-tagline{font-size:1.5rem;color:var(--md-sys-color-on-primary);opacity:.95;padding:0 3rem;text-align:center}.footer-subtitle{font-size:1rem;text-align:center;color:var(--md-sys-color-on-primary);opacity:.8;padding:.75rem 1.25rem;background:color-mix(in srgb,var(--md-sys-color-primary),rgba(255,255,255,.05) 80%);backdrop-filter:blur(1rem);border-radius:2rem}.footer-nav{display:flex;width:100%;justify-content:center;gap:3rem;list-style:none;margin:0;padding:0;background:color-mix(in srgb,var(--md-sys-color-primary),#000 70%);padding:1rem 2rem}.footer-link{color:var(--md-sys-color-on-primary);text-decoration:none;font-size:.875rem;font-weight:400;text-transform:uppercase;letter-spacing:.05em;transition:opacity .3s ease}.footer-link:hover{opacity:.8}.footer-link:focus{outline:2px solid var(--md-sys-color-on-primary);outline-offset:2px}@media (max-width:768px){.footer-content{gap:1rem;padding-top:3rem}.ai-button-container{margin:1rem 0}.footer{margin:0;border-radius:2rem 2rem 0 0}.footer-nav{margin-top:1rem;gap:2rem}.footer-link{font-size:.75rem}}@media (max-width:480px){.footer-nav{flex-direction:column;align-items:center;padding:1.5rem}.footer-link{font-size:.75rem}}@layer properties{@property --elh{syntax:"<number>";inherits:true;initial-value:1}@property --elw{syntax:"<number>";inherits:true;initial-value:1}@property --erw{syntax:"<number>";inherits:true;initial-value:1}@property --erx{syntax:"<percentage>";inherits:true;initial-value:0%}@property --fx{syntax:"<percentage>";inherits:true;initial-value:0%}@property --ealw{syntax:"<number>";inherits:true;initial-value:1}@property --earw{syntax:"<number>";inherits:true;initial-value:1}@property --erh{syntax:"<number>";inherits:true;initial-value:1}@property --mh{syntax:"<number>";inherits:true;initial-value:1}@property --mw{syntax:"<number>";inherits:true;initial-value:1}}.ai-avatar{--gaze-sweep-timing:linear(
+		0 0%,
+		0 2.27%,
+		0.02 4.53%,
+		0.04 6.8%,
+		0.06 9.07%,
+		0.1 11.33%,
+		0.14 13.6%,
+		0.25 18.15%,
+		0.39 22.7%,
+		0.56 27.25%,
+		0.77 31.8%,
+		1 36.35%,
+		0.89 40.9%,
+		0.85 43.18%,
+		0.81 45.45%,
+		0.79 47.72%,
+		0.77 50%,
+		0.75 52.27%,
+		0.75 54.55%,
+		0.75 56.82%,
+		0.77 59.1%,
+		0.79 61.38%,
+		0.81 63.65%,
+		0.85 65.93%,
+		0.89 68.2%,
+		1 72.7%,
+		0.97 74.98%,
+		0.95 77.25%,
+		0.94 79.53%,
+		0.94 81.8%,
+		0.94 84.08%,
+		0.95 86.35%,
+		0.97 88.63%,
+		1 90.9%,
+		0.99 93.18%,
+		0.98 95.45%,
+		0.99 97.73%,
+		1 100%
+	);--surface:var(--md-sys-color-on-secondary-fixed);--c:var(--md-sys-color-surface-container-lowest);--c2:var(--c);--c3:var(--md-sys-color-primary);--ai-avatar-animation-blink:ai-avatar-blink 2.4s ease infinite;--ai-avatar-animation-speaking:ai-avatar-speaking 1.2s ease-in infinite;--ai-avatar-animation-lookLeft:ai-avatar-lookLeft 0.3s ease-in forwards;--ai-avatar-animation-lookRight:ai-avatar-lookRight 0.3s ease-in forwards;--ai-avatar-animation-gazeSweep:ai-avatar-gazeSweep 4.2s var(--gaze-sweep-timing) infinite;--ai-avatar-animation-0:var(--ai-avatar-animation-gazeSweep);--ai-avatar-animation-1:var(--ai-avatar-animation-speaking);--ai-avatar-animation-2:var(--ai-avatar-animation-blink);--ai-avatar-animation-3:none;--ai-avatar-animation-4:none;--ai-avatar-animation-5:none;--ai-avatar-animation-6:none;--ai-avatar-animation-7:none;container:bot/size;height:100%;width:100%;position:relative;display:grid;place-items:center;filter:drop-shadow(0 .5cqmin .7cqmin rgba(0, 0, 0, .6))}.ai-avatar:not(.disabled){animation:var(--ai-avatar-animation-0),var(--ai-avatar-animation-1),var(--ai-avatar-animation-2),var(--ai-avatar-animation-3),var(--ai-avatar-animation-4),var(--ai-avatar-animation-5)}.ai-avatar.disabled{filter:brightness(.5);animation:disabled .3s ease forwards;opacity:.2}.ai-avatar .head{background:linear-gradient(var(--c) 80%,color-mix(in srgb,var(--c),#000 30%),var(--c));border-radius:17cqmin;position:absolute;width:80cqmin;height:57cqmin}.ai-avatar .head:after,.ai-avatar .head:before{content:"";position:absolute;left:-8.5cqmin;top:17cqmin;width:6cqmin;height:23cqmin;background:var(--c,1);border-radius:6cqmin 0 0 6cqmin;scale:var(--ealw,1) 1}.ai-avatar .head:after{right:-8.5cqmin;left:unset;border-radius:0 6cqmin 6cqmin 0;scale:var(--earw,1) 1}.ai-avatar .head .face{display:flex;flex-direction:column;align-items:center;position:absolute;inset:0 8.5cqmin;background:var(--surface);transition:background .3s ease;translate:var(--fx) 0;border-radius:11cqmin;padding:11cqmin 11cqmin 5.5cqmin 11cqmin;gap:8.5cqmin}.ai-avatar .head .face:before{content:"";background:var(--c);transition:background .3s ease;position:absolute;height:2.8cqmin;width:28.5cqmin;top:-5cqmin;border-radius:5.5cqmin 5.5cqmin 0 0;mask:radial-gradient(circle at 50% 100%,transparent 45%,black 45%)}.ai-avatar .head .face .eyes{display:flex;height:22.8cqmin;gap:17cqmin}.ai-avatar .head .face .eyes:after,.ai-avatar .head .face .eyes:before{content:"";width:14cqmin;height:22.8cqmin;scale:var(--erw) var(--elh);filter:drop-shadow(0 0 5cqmin var(--c2));background:repeating-linear-gradient(to bottom,var(--c),var(--c) .71cqmin,transparent .71cqmin,transparent 1.7cqmin),linear-gradient(to bottom,var(--c3),transparent 60%),var(--c2);border-radius:2.8cqmin;translate:var(--erx) 0}.ai-avatar .head .face .eyes:after{scale:var(--erw) var(--erh);translate:var(--erx) 0}.ai-avatar .head .face .mouth{width:28.5cqmin;height:5cqmin;background:var(--c2);transition:background .3s ease;border-radius:0 0 2.8cqmin 2.8cqmin;filter:drop-shadow(0 0 5cqmin var(--c2));scale:var(--mw,1) var(--mh,1)}@keyframes disabled{to{--mh:0.3}}@keyframes ai-avatar-blink{10%,from,to{--elh:1;--erh:1}2%{--elh:0.2}8%{--erh:0.1}}@keyframes ai-avatar-speaking{30%,70%,from,to{--mh:1;--mw:1}20%{--mh:0.5}60%{--mw:0.7}}@keyframes ai-avatar-gazeSweep{20%,40%,from,to{--erx:0%;--fx:0%;--ealw:1;--earw:1}10%{--erx:20%;--fx:10%;--ealw:1.5;--earw:0.5}30%{--erx:-20%;--fx:-10%;--ealw:0.5;--earw:1.5}}@keyframes ai-avatar-lookLeft{from{--erx:0%;--fx:0%;--ealw:1;--earw:1}to{--erx:-20%;--fx:-10%;--ealw:0.5;--earw:1.5}}@keyframes ai-avatar-lookRight{from{--erx:0%;--fx:0%;--ealw:1;--earw:1}to{--erx:20%;--fx:10%;--ealw:1.5;--earw:0.5}}.ai-avatar{width:2rem;aspect-ratio:1}.ai-button .avatar-container{padding:.5rem 1rem .5rem 0;display:grid;place-items:center}.ai-button{text-transform:uppercase;display:flex;gap:1rem;background:#0d5357;border-radius:2rem;text-decoration:none;color:inherit;transition:all .2s ease}.ai-button:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.3)}.ai-button:focus{outline:2px solid var(--md-sys-color-on-primary);outline-offset:2px}.ai-button-container{display:grid;place-items:center}.ai-button-label{color:var(--md-sys-color-on-primary);white-space:nowrap;background:red;border-radius:inherit;display:grid;place-items:center;padding:.5rem 1rem;border:1px solid rgba(255,255,255,.3);background:linear-gradient(293deg,#176c71 35.15%,#0d959d 64.85%);box-shadow:0 4px 12px 0 rgba(0,0,0,.25)}</style>
+		
+		<script type="module">let globalInstanceIndex=0;class HeadingAnchors extends HTMLElement{static register(e){"customElements"in window&&customElements.define(e||"heading-anchors",HeadingAnchors)}static attributes={exclude:"data-ha-exclude",prefix:"prefix",content:"content"};static classes={anchor:"ha",placeholder:"ha-placeholder",srOnly:"ha-visualhide"};static defaultSelector="h2,h3,h4,h5,h6";static css=`\n.${HeadingAnchors.classes.srOnly} {\n\tclip: rect(0 0 0 0);\n\theight: 1px;\n\toverflow: hidden;\n\tposition: absolute;\n\twidth: 1px;\n}\n.${HeadingAnchors.classes.anchor} {\n\tposition: absolute;\n\tleft: var(--ha_offsetx);\n\ttop: var(--ha_offsety);\n\ttext-decoration: none;\n\topacity: 0;\n}\n.${HeadingAnchors.classes.placeholder} {\n\topacity: .3;\n}\n.${HeadingAnchors.classes.anchor}:is(:focus-within, :hover) {\n\topacity: 1;\n}\n.${HeadingAnchors.classes.anchor},\n.${HeadingAnchors.classes.placeholder} {\n\tdisplay: inline-block;\n\tpadding: 0 .25em;\n\n\t/* Disable selection of visually hidden label */\n\t-webkit-user-select: none;\n\tuser-select: none;\n}\n\n@supports (anchor-name: none) {\n\t.${HeadingAnchors.classes.anchor} {\n\t\tposition: absolute;\n\t\tleft: anchor(left);\n\t\ttop: anchor(top);\n\t}\n}`;get supports(){return"replaceSync"in CSSStyleSheet.prototype}get supportsAnchorPosition(){return CSS.supports("anchor-name: none")}constructor(){if(super(),!this.supports)return;let e=new CSSStyleSheet;e.replaceSync(HeadingAnchors.css),document.adoptedStyleSheets=[...document.adoptedStyleSheets,e],this.headingStyles={},this.instanceIndex=globalInstanceIndex++}connectedCallback(){this.supports&&this.headings.forEach((e,t)=>{if(!e.hasAttribute(HeadingAnchors.attributes.exclude)){let s=this.getAnchorElement(e),n=this.getPlaceholderElement();if(this.supportsAnchorPosition){let e=`--ha_${this.instanceIndex}_${t}`;n.style.setProperty("anchor-name",e),s.style.positionAnchor=e}e.appendChild(n),e.after(s)}})}positionAnchorFromPlaceholder(e){if(!e)return;let t=e.closest("h1,h2,h3,h4,h5,h6");t.nextElementSibling&&this.positionAnchor(t.nextElementSibling)}positionAnchor(e){if(!e||!e.previousElementSibling)return;let t=e.previousElementSibling;if(this.setFontProp(t,e),this.supportsAnchorPosition)return;let s=t.querySelector(`.${HeadingAnchors.classes.placeholder}`);s&&(e.style.setProperty("--ha_offsetx",`${s.offsetLeft}px`),e.style.setProperty("--ha_offsety",`${s.offsetTop}px`))}setFontProp(e,t){let s=e.querySelector(`.${HeadingAnchors.classes.placeholder}`);if(s){let e=getComputedStyle(s),n=["font-weight","font-size","line-height","font-family"].map(t=>e.getPropertyValue(t));t.style.setProperty("font",`${n[0]} ${n[1]}/${n[2]} ${n[3]}`)}}getAccessibleTextPrefix(){return this.getAttribute(HeadingAnchors.attributes.prefix)||"Jump to section titled"}getContent(){return this.hasAttribute(HeadingAnchors.attributes.content)?this.getAttribute(HeadingAnchors.attributes.content):"#"}getPlaceholderElement(){let e=document.createElement("span");e.setAttribute("aria-hidden",!0),e.classList.add(HeadingAnchors.classes.placeholder);let t=this.getContent();return t&&(e.textContent=t),e.addEventListener("mouseover",e=>{let t=e.target.closest(`.${HeadingAnchors.classes.placeholder}`);t&&this.positionAnchorFromPlaceholder(t)}),e}getAnchorElement(e){let t=document.createElement("a");t.href=`#${e.id}`,t.classList.add(HeadingAnchors.classes.anchor);let s=this.getContent();return t.innerHTML=`<span class="${HeadingAnchors.classes.srOnly}">${this.getAccessibleTextPrefix()}: ${e.textContent}</span>${s?`<span aria-hidden="true">${s}</span>`:""}`,t.addEventListener("focus",e=>{let t=e.target.closest(`.${HeadingAnchors.classes.anchor}`);t&&this.positionAnchor(t)}),t.addEventListener("mouseover",e=>{let t=e.target.closest(`.${HeadingAnchors.classes.anchor}`);this.positionAnchor(t)}),t}get headings(){return this.querySelectorAll(this.selector.split(",").map(e=>`${e.trim()}[id]`))}get selector(){return this.getAttribute("selector")||HeadingAnchors.defaultSelector}}HeadingAnchors.register();export{HeadingAnchors};class LanguageSelector{constructor(){this.button=document.getElementById("lang-button"),this.overlay=document.getElementById("lang-overlay"),this.isOpen=!1,this.mobileMenu=null,this.button&&this.overlay&&this.init()}setMobileMenu(e){this.mobileMenu=e}init(){this.button.addEventListener("click",e=>{e.preventDefault(),e.stopPropagation(),this.toggle()}),document.addEventListener("click",e=>{!this.isOpen||this.button.contains(e.target)||this.overlay.contains(e.target)||this.close()}),document.addEventListener("keydown",e=>{"Escape"===e.key&&this.isOpen&&this.close()}),this.overlay.addEventListener("keydown",e=>{"Escape"===e.key&&(this.close(),this.button.focus())})}toggle(){this.isOpen?this.close():this.open()}open(){this.isOpen=!0,this.overlay.classList.add("is-open"),this.button.setAttribute("aria-expanded","true"),this.overlay.setAttribute("aria-hidden","false"),this.mobileMenu&&this.mobileMenu.isOpen&&this.mobileMenu.close();const e=this.overlay.querySelector(".appbar__lang-option:not(.is-active)");e&&e.focus()}close(){this.isOpen=!1,this.overlay.classList.remove("is-open"),this.button.setAttribute("aria-expanded","false"),this.overlay.setAttribute("aria-hidden","true")}}class MobileMenu{constructor(){this.button=document.getElementById("menu-button"),this.overlay=document.getElementById("menu-overlay"),this.isOpen=!1,this.languageSelector=null,this.button&&this.overlay&&this.init()}setLanguageSelector(e){this.languageSelector=e}init(){this.button.addEventListener("click",e=>{e.preventDefault(),e.stopPropagation(),this.toggle()}),document.addEventListener("click",e=>{!this.isOpen||this.button.contains(e.target)||this.overlay.contains(e.target)||this.close()}),document.addEventListener("keydown",e=>{"Escape"===e.key&&this.isOpen&&this.close()}),this.overlay.addEventListener("keydown",e=>{"Escape"===e.key&&(this.close(),this.button.focus())})}toggle(){this.isOpen?this.close():this.open()}open(){this.isOpen=!0,this.overlay.classList.add("is-open"),this.button.setAttribute("aria-expanded","true"),this.overlay.setAttribute("aria-hidden","false"),this.languageSelector&&this.languageSelector.isOpen&&this.languageSelector.close();const e=this.overlay.querySelector(".appbar__menu-option:not(.is-active)");e&&e.focus()}close(){this.isOpen=!1,this.overlay.classList.remove("is-open"),this.button.setAttribute("aria-expanded","false"),this.overlay.setAttribute("aria-hidden","true")}}document.addEventListener("DOMContentLoaded",()=>{const e=new LanguageSelector,t=new MobileMenu;e.setMobileMenu(t),t.setLanguageSelector(e)});</script>
+	</head>
+	<body>
+		<main id="main">
+			<heading-anchors>
+				
+
+
+
+
+<div class="appbar-container">
+<nav class="appbar" role="navigation" aria-label="Main">
+  
+  <button class="appbar__menu-button" id="menu-button" aria-label="Open Menu" aria-expanded="false" aria-haspopup="true">
+    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 1.34375C0 0.886719 0.351562 0.5 0.84375 0.5H14.9062C15.3633 0.5 15.75 0.886719 15.75 1.34375C15.75 1.83594 15.3633 2.1875 14.9062 2.1875H0.84375C0.351562 2.1875 0 1.83594 0 1.34375ZM0 6.96875C0 6.51172 0.351562 6.125 0.84375 6.125H14.9062C15.3633 6.125 15.75 6.51172 15.75 6.96875C15.75 7.46094 15.3633 7.8125 14.9062 7.8125H0.84375C0.351562 7.8125 0 7.46094 0 6.96875ZM15.75 12.5938C15.75 13.0859 15.3633 13.4375 14.9062 13.4375H0.84375C0.351562 13.4375 0 13.0859 0 12.5938C0 12.1367 0.351562 11.75 0.84375 11.75H14.9062C15.3633 11.75 15.75 12.1367 15.75 12.5938Z" fill="currentColor"></path>
+    </svg>
+  </button>
+
+	<img class="appbar__logo" src="/img/logo-small-white.svg" alt="Choicera logo" loading="eager" decoding="async">
+
+  <ul class="appbar__list">
+    
+      
+      
+      <li class="appbar__item">
+        <a class="appbar__link" href="/" hreflang="en">
+          Home
+        </a>
+      </li>
+    
+      
+      
+      <li class="appbar__item">
+        <a class="appbar__link" href="/about/" hreflang="en">
+          About
+        </a>
+      </li>
+    
+      
+      
+      <li class="appbar__item">
+        <a class="appbar__link" href="/affiliate/" hreflang="en">
+          Affiliate
+        </a>
+      </li>
+    
+      
+      
+      <li class="appbar__item">
+        <a class="appbar__link" href="/partners/" hreflang="en">
+          Partners
+        </a>
+      </li>
+    
+      
+      
+      <li class="appbar__item">
+        <a class="appbar__link" href="/imprint/" hreflang="en">
+          Imprint
+        </a>
+      </li>
+    
+
+
+    
+    
+    <li class="appbar__lang-selector">
+      <button class="appbar__lang-button" id="lang-button" aria-label="Select Language" aria-expanded="false" aria-haspopup="true">
+        <svg viewBox="0 0 105 101" fill="none" xmlns="http://www.w3.org/2000/svg" class="appbar__lang-icon">
+          <path d="M52.911 94.2389C56.0305 94.2389 60.7096 91.5094 64.8039 83.1259C66.7535 79.2266 68.5082 74.5474 69.678 69.2834H36.144C37.1189 74.5474 38.8736 79.2266 40.8232 83.1259C44.9175 91.5094 49.5966 94.2389 52.911 94.2389ZM34.9743 63.0445H70.6528C71.2377 59.1452 71.6277 55.0509 71.6277 50.5667C71.6277 46.2775 71.2377 42.1832 70.6528 38.089H34.9743C34.3894 42.1832 34.1944 46.2775 34.1944 50.5667C34.1944 55.0509 34.3894 59.1452 34.9743 63.0445ZM36.144 31.8501H69.678C68.5082 26.586 66.7535 22.1018 64.8039 18.2025C60.7096 9.81904 56.0305 6.89457 52.911 6.89457C49.5966 6.89457 44.9175 9.81904 40.8232 18.2025C38.8736 22.1018 37.1189 26.586 36.144 31.8501ZM77.0867 38.089C77.4766 42.1832 77.8666 46.2775 77.8666 50.5667C77.8666 55.0509 77.4766 59.1452 77.0867 63.0445H94.6335C95.8033 59.1452 96.5832 55.0509 96.5832 50.5667C96.5832 46.2775 95.8033 42.1832 94.6335 38.089H77.0867ZM92.294 31.8501C87.2249 21.322 78.0615 13.1334 66.7535 9.23415C70.8478 14.6932 74.1622 22.6867 75.9169 31.8501H92.294ZM29.7102 31.8501C31.6599 22.6867 34.7793 14.6932 38.8736 9.23415C27.5656 13.1334 18.4022 21.322 13.3331 31.8501H29.7102ZM10.9936 38.089C9.82377 42.1832 9.23888 46.2775 9.23888 50.5667C9.23888 55.0509 9.82377 59.1452 10.9936 63.0445H28.7354C28.1505 59.1452 27.9555 55.0509 27.9555 50.5667C27.9555 46.2775 28.1505 42.1832 28.7354 38.089H10.9936ZM66.7535 92.0943C78.0615 88.195 87.2249 80.0064 92.294 69.2834H75.9169C74.1622 78.6417 70.8478 86.4403 66.7535 92.0943ZM38.8736 92.0943C34.7793 86.4403 31.6599 78.6417 29.7102 69.2834H13.3331C18.4022 80.0064 27.5656 88.195 38.8736 92.0943ZM52.911 100.478C34.9743 100.478 18.5972 91.1194 9.62881 75.5222C0.66042 60.12 0.66042 41.2084 9.62881 25.6112C18.5972 10.209 34.9743 0.655691 52.911 0.655691C70.6528 0.655691 87.0299 10.209 95.9983 25.6112C104.967 41.2084 104.967 60.12 95.9983 75.5222C87.0299 91.1194 70.6528 100.478 52.911 100.478Z" fill="currentColor"></path>
+        </svg>
+      </button>
+
+      <div class="appbar__lang-overlay" id="lang-overlay" role="menu" aria-hidden="true">
+        <div class="appbar__lang-overlay-content">
+          
+
+          
+          
+            
+              
+              
+            
+            
+              <div class="appbar__lang-option is-active" role="menuitem" aria-current="page">
+                <picture><source type="image/avif" srcset="/img/8FCG2aM6Gn-20.avif 20w"><source type="image/webp" srcset="/img/8FCG2aM6Gn-20.webp 20w"><img loading="lazy" decoding="async" src="/img/8FCG2aM6Gn-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">English</span>
+              </div>
+            
+          
+            
+              
+              
+            
+            
+              <a class="appbar__lang-option" href="/de/_index/" hreflang="de" role="menuitem">
+                <picture><source type="image/avif" srcset="/img/KegdmjKa3V-20.avif 20w"><source type="image/webp" srcset="/img/KegdmjKa3V-20.webp 20w"><img loading="lazy" decoding="async" src="/img/KegdmjKa3V-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">German</span>
+              </a>
+            
+          
+            
+              
+              
+            
+            
+              <a class="appbar__lang-option" href="/fr/_index/" hreflang="fr" role="menuitem">
+                <picture><source type="image/avif" srcset="/img/pGNG5eoJRV-20.avif 20w"><source type="image/webp" srcset="/img/pGNG5eoJRV-20.webp 20w"><img loading="lazy" decoding="async" src="/img/pGNG5eoJRV-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">French</span>
+              </a>
+            
+          
+            
+              
+              
+            
+            
+              <a class="appbar__lang-option" href="/es/_index/" hreflang="es" role="menuitem">
+                <picture><source type="image/avif" srcset="/img/w1WBTQWe0a-20.avif 20w"><source type="image/webp" srcset="/img/w1WBTQWe0a-20.webp 20w"><img loading="lazy" decoding="async" src="/img/w1WBTQWe0a-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">Spanish</span>
+              </a>
+            
+          
+            
+              
+              
+            
+            
+              <a class="appbar__lang-option" href="/it/_index/" hreflang="it" role="menuitem">
+                <picture><source type="image/avif" srcset="/img/ay8CUIR2ka-20.avif 20w"><source type="image/webp" srcset="/img/ay8CUIR2ka-20.webp 20w"><img loading="lazy" decoding="async" src="/img/ay8CUIR2ka-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">Italian</span>
+              </a>
+            
+          
+            
+              
+              
+            
+            
+              <a class="appbar__lang-option" href="/ru/_index/" hreflang="ru" role="menuitem">
+                <picture><source type="image/avif" srcset="/img/IPJNd0rGxu-20.avif 20w"><source type="image/webp" srcset="/img/IPJNd0rGxu-20.webp 20w"><img loading="lazy" decoding="async" src="/img/IPJNd0rGxu-512.svg" alt="" class="appbar__lang-flag" width="512" height="512"></picture>
+                <span class="appbar__lang-name">Russian</span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  
+  <div class="appbar__menu-overlay" id="menu-overlay" role="menu" aria-hidden="true">
+    <div class="appbar__menu-overlay-content">
+      
+        
+        
+        
+          <a class="appbar__menu-option" href="/" hreflang="en" role="menuitem">
+            <span class="appbar__menu-name">Home</span>
+          </a>
+        
+      
+        
+        
+        
+          <a class="appbar__menu-option" href="/about/" hreflang="en" role="menuitem">
+            <span class="appbar__menu-name">About</span>
+          </a>
+        
+      
+        
+        
+        
+          <a class="appbar__menu-option" href="/affiliate/" hreflang="en" role="menuitem">
+            <span class="appbar__menu-name">Affiliate</span>
+          </a>
+        
+      
+        
+        
+        
+          <a class="appbar__menu-option" href="/partners/" hreflang="en" role="menuitem">
+            <span class="appbar__menu-name">Partners</span>
+          </a>
+        
+      
+        
+        
+        
+          <a class="appbar__menu-option" href="/imprint/" hreflang="en" role="menuitem">
+            <span class="appbar__menu-name">Imprint</span>
+          </a>
+        
+      
+    </div>
+  </div>
+</nav>
+</div>
+
+<section class="hero">
+<div class="hero-cover">
+  <picture><source media="(min-width: 1024px)" type="image/avif" srcset="/img/Opwu9BlE2Y-1200.avif 1200w, /img/Opwu9BlE2Y-1600.avif 1600w"><source media="(min-width: 1024px)" type="image/webp" srcset="/img/Opwu9BlE2Y-1200.webp 1200w, /img/Opwu9BlE2Y-1600.webp 1600w"><source media="(min-width: 1024px)" type="image/png" srcset="/img/Opwu9BlE2Y-1200.png 1200w, /img/Opwu9BlE2Y-1600.png 1600w"><source media="(max-width: 1023px)" type="image/avif" srcset="/img/PTkujAu_DS-400.avif 400w, /img/PTkujAu_DS-800.avif 800w"><source media="(max-width: 1023px)" type="image/webp" srcset="/img/PTkujAu_DS-400.webp 400w, /img/PTkujAu_DS-800.webp 800w"><source media="(max-width: 1023px)" type="image/png" srcset="/img/PTkujAu_DS-400.png 400w, /img/PTkujAu_DS-800.png 800w"><img src="content/img/PTkujAu_DS-400.png" alt="Choicera App" loading="eager" fetchpriority="high" decoding="async" class="hero-cover-img" width="400" height="300"></picture>
+</div>
+<div class="top">
+<figure class="hero-logo">
+  <img src="/img/logo-large-hexagon.svg" alt="Choicera App Logo" loading="eager" fetchpriority="high">
+</figure>
+
+	<h1 id="choicera">choicera</h1>
+</div>
+<div class="bottom"><p class="subtitle">
+
+<span>discover what&#39;s</span>
+<span>right for you</span></p>
+<div class="ai-button-container">
+	<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20start%20my%20personalized%20supplement%20plan" class="ai-button" role="button" aria-label="Start Now - I want to start my personalized supplement plan" title="Start Now">
+		<div class="ai-button-label t-title-small">Start Now</div>
+		<div class="avatar-container">
+			<div class="ai-avatar compact">
+			<div class="head">
+				<div class="face">
+					<div class="eyes"></div>
+					<div class="mouth"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</a>
+</div>
+
+
+<p class="description t-body-medium">We empower people to discover what&#39;s right for them in a world full of choices.</p>
+</div>
+</section>
+
+<section class="how">
+<div class="part">
+<h2 eleventy.ignore="" class="t-display-small" id="our-ai-helps-you-find-the-supplements-perfectly-right-for-you">Our <strong>AI</strong> helps you find the supplements perfectly right for <strong>you</strong>!</h2></div>
+
+<div class="part">
+	<ol class="steps">
+		<li class="step">
+			<span class="index">1</span>
+
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3203 13.8984L20.0156 12.2031L21.6016 12.4766C21.7656 13.1328 21.875 13.7891 21.875 14.5C21.875 18.875 18.3203 22.375 14 22.375C9.625 22.375 6.125 18.875 6.125 14.5C6.125 10.1797 9.625 6.625 14 6.625C14.7109 6.625 15.3672 6.73438 16.0234 6.89844L16.2969 8.48438L14.6016 10.1797C14.3828 10.1797 14.1641 10.125 14 10.125C11.5391 10.125 9.625 12.0938 9.625 14.5C9.625 16.9609 11.5391 18.875 14 18.875C16.4062 18.875 18.375 16.9609 18.375 14.5C18.375 14.3359 18.3203 14.1172 18.3203 13.8984ZM24.3359 12.75L24.8281 12.2578L27.1797 9.90625C27.7266 11.3281 28 12.9141 28 14.5C28 22.2656 21.7109 28.5 14 28.5C6.23438 28.5 0 22.2656 0 14.5C0 6.78906 6.23438 0.5 14 0.5C15.5859 0.5 17.1719 0.773438 18.5938 1.32031L16.2422 3.67188L15.75 4.16406C15.1484 4.05469 14.5469 4 14 4C8.20312 4 3.5 8.70312 3.5 14.5C3.5 20.2969 8.20312 25 14 25C19.7969 25 24.5 20.2969 24.5 14.5C24.5 13.8984 24.4453 13.3516 24.3359 12.75ZM19.9609 10.3984L14.875 15.4297C14.3828 15.9766 13.5625 15.9766 13.0703 15.4297C12.5234 14.9375 12.5234 14.1172 13.0703 13.5703L18.1016 8.53906L17.6094 5.80469C17.5547 5.25781 17.7188 4.65625 18.1016 4.27344L20.8906 1.48438C21.3828 0.992188 22.0938 1.15625 22.3672 1.75781L23.625 4.875L26.7422 6.13281C27.3438 6.40625 27.5078 7.11719 27.0156 7.60938L24.2266 10.3984C23.8438 10.7812 23.2969 10.9453 22.6953 10.8906L19.9609 10.3984Z" fill="currentColor"></path>
+</svg>
+
+			<span class="title t-title-medium">
+				Your goal
+			</span>
+		</li>
+			<li class="step primary">
+			<span class="index">2</span>
+<svg width="37" height="29" viewBox="0 0 37 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.75 10.125C23.75 15.4844 18.6094 19.75 12.375 19.75C10.2422 19.75 8.32812 19.3125 6.63281 18.4922C6.19531 18.7109 5.75781 18.875 5.26562 19.0938C4.22656 19.4766 3.02344 19.75 1.875 19.75C1.49219 19.75 1.10938 19.5312 1 19.1484C0.890625 18.8203 1.05469 18.4375 1.32812 18.1641C1.38281 18.1641 1.38281 18.1641 1.38281 18.1094C1.4375 18.1094 1.54688 18 1.65625 17.9453C1.82031 17.7266 2.09375 17.5078 2.36719 17.125C2.69531 16.7422 2.96875 16.3047 3.13281 15.8125C1.76562 14.2266 1 12.2578 1 10.125C1 4.82031 6.08594 0.5 12.375 0.5C18.6094 0.5 23.75 4.82031 23.75 10.125ZM13.6328 21.4453C20.0312 20.8984 25.5 16.3047 25.5 10.125C25.5 9.85156 25.4453 9.57812 25.4453 9.30469C31.3516 9.6875 36 13.8438 36 18.875C36 21.0078 35.1797 22.9766 33.8125 24.5625C33.9766 25.0547 34.3047 25.5469 34.5781 25.9297C34.8516 26.2578 35.125 26.5312 35.2891 26.6953C35.3984 26.75 35.5078 26.8594 35.5625 26.9141H35.6172V26.9688C35.9453 27.1875 36.0547 27.5703 35.9453 27.8984C35.8359 28.2812 35.5078 28.5547 35.125 28.5547C33.9219 28.5547 32.7188 28.2266 31.7344 27.8438C31.1875 27.6797 30.75 27.4609 30.3125 27.2422C28.6172 28.0625 26.7031 28.5 24.625 28.5C19.375 28.5 14.9453 25.5469 13.6328 21.4453ZM8.4375 6.46094L8.38281 6.51562C8.21875 7.0625 8.49219 7.71875 9.09375 7.88281C9.64062 8.10156 10.2422 7.82812 10.4609 7.22656V7.17188C10.5156 7.00781 10.6797 6.95312 10.8438 6.95312H13.4688C13.8516 6.95312 14.1797 7.22656 14.1797 7.60938C14.1797 7.88281 14.0156 8.10156 13.8516 8.21094L11.8281 9.41406C11.4453 9.57812 11.2812 9.96094 11.2812 10.3438V10.9453C11.2812 11.5469 11.7734 12.0391 12.375 12.0391C12.9219 12.0391 13.4141 11.5469 13.4688 10.9453L14.8906 10.125C15.8203 9.63281 16.3672 8.64844 16.3672 7.60938C16.3672 6.02344 15.0547 4.76562 13.4688 4.76562H10.8438C9.75 4.76562 8.76562 5.42188 8.4375 6.46094ZM13.7969 14.9375C13.8516 14.4453 13.5781 13.8984 13.0859 13.625C12.6484 13.3516 12.0469 13.3516 11.6094 13.625C11.1172 13.8984 10.8438 14.4453 10.8984 14.9375C10.8438 15.4844 11.1172 16.0312 11.6094 16.3047C12.0469 16.5781 12.6484 16.5781 13.0859 16.3047C13.5781 16.0312 13.8516 15.4844 13.7969 14.9375Z" fill="currentColor"></path>
+</svg>
+
+			<span class="title t-title-medium">
+				Answer Questions
+			</span>
+		</li>
+
+
+	<li class="step tertiary">
+			<span class="index">3</span>
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.8828 5.20312L21 4L22.1484 0.9375C22.2031 0.664062 22.4766 0.5 22.75 0.5C22.9688 0.5 23.2422 0.664062 23.2969 0.9375L24.5 4L27.5625 5.20312C27.8359 5.25781 28 5.53125 28 5.75C28 6.02344 27.8359 6.29688 27.5625 6.35156L24.5 7.5L23.2969 10.6172C23.2422 10.8359 22.9688 11 22.75 11C22.4766 11 22.2031 10.8359 22.1484 10.6172L21 7.5L17.8828 6.35156C17.6641 6.29688 17.5 6.02344 17.5 5.75C17.5 5.53125 17.6641 5.25781 17.8828 5.20312ZM11.2109 4.54688L14.0547 10.7812L20.2891 13.625C20.6172 13.7891 20.8359 14.1172 20.8359 14.4453C20.8359 14.7734 20.6172 15.1016 20.2891 15.2109L14.0547 18.1094L11.2109 24.3438C11.0469 24.6719 10.7188 24.8906 10.3906 24.8906C10.0625 24.8906 9.73438 24.6719 9.625 24.3438L6.72656 18.1094L0.492188 15.2656C0.164062 15.1016 0 14.7734 0 14.4453C0 14.1172 0.164062 13.7891 0.492188 13.625L6.72656 10.7812L9.625 4.54688C9.73438 4.21875 10.0625 4 10.3906 4C10.7188 4 11.0469 4.21875 11.2109 4.54688ZM21 21.5L22.1484 18.4375C22.2031 18.1641 22.4766 18 22.75 18C22.9688 18 23.2422 18.1641 23.2969 18.4375L24.5 21.5L27.5625 22.7031C27.8359 22.7578 28 23.0312 28 23.25C28 23.5234 27.8359 23.7969 27.5625 23.8516L24.5 25L23.2969 28.1172C23.2422 28.3359 22.9688 28.5 22.75 28.5C22.4766 28.5 22.2031 28.3359 22.1484 28.1172L21 25L17.8828 23.8516C17.6641 23.7969 17.5 23.5234 17.5 23.25C17.5 23.0312 17.6641 22.7578 17.8828 22.7031L21 21.5Z" fill="currentColor"></path>
+</svg>
+
+			<span class="title t-title-medium">
+				Personalized Plan
+			</span>
+		</li>
+
+	<li class="step secondary">
+			<span class="index">4</span>
+<svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 22.25C0 21.3203 0.765625 20.5 1.75 20.5H4.70312C5.41406 18.9688 6.94531 17.875 8.75 17.875C10.5 17.875 12.0859 18.9688 12.7422 20.5H26.25C27.1797 20.5 28 21.3203 28 22.25C28 23.2344 27.1797 24 26.25 24H12.7422C12.0859 25.5859 10.5 26.625 8.75 26.625C6.94531 26.625 5.41406 25.5859 4.70312 24H1.75C0.765625 24 0 23.2344 0 22.25ZM7 22.25C7 23.2344 7.76562 24 8.75 24C9.67969 24 10.5 23.2344 10.5 22.25C10.5 21.3203 9.67969 20.5 8.75 20.5C7.76562 20.5 7 21.3203 7 22.25ZM17.5 13.5C17.5 14.4844 18.2656 15.25 19.25 15.25C20.1797 15.25 21 14.4844 21 13.5C21 12.5703 20.1797 11.75 19.25 11.75C18.2656 11.75 17.5 12.5703 17.5 13.5ZM19.25 9.125C21 9.125 22.5859 10.2188 23.2422 11.75H26.25C27.1797 11.75 28 12.5703 28 13.5C28 14.4844 27.1797 15.25 26.25 15.25H23.2422C22.5859 16.8359 21 17.875 19.25 17.875C17.4453 17.875 15.9141 16.8359 15.2031 15.25H1.75C0.765625 15.25 0 14.4844 0 13.5C0 12.5703 0.765625 11.75 1.75 11.75H15.2031C15.9141 10.2188 17.4453 9.125 19.25 9.125ZM10.5 6.5C11.4297 6.5 12.25 5.73438 12.25 4.75C12.25 3.82031 11.4297 3 10.5 3C9.51562 3 8.75 3.82031 8.75 4.75C8.75 5.73438 9.51562 6.5 10.5 6.5ZM14.4922 3H26.25C27.1797 3 28 3.82031 28 4.75C28 5.73438 27.1797 6.5 26.25 6.5H14.4922C13.8359 8.08594 12.25 9.125 10.5 9.125C8.69531 9.125 7.16406 8.08594 6.45312 6.5H1.75C0.765625 6.5 0 5.73438 0 4.75C0 3.82031 0.765625 3 1.75 3H6.45312C7.16406 1.46875 8.69531 0.375 10.5 0.375C12.25 0.375 13.8359 1.46875 14.4922 3Z" fill="currentColor"></path>
+</svg>
+
+			<span class="title t-title-medium">
+				Refine it
+			</span>
+		</li>
+	<li class="step dim">
+			<span class="index">5</span>
+<svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.2891 0.664062C13.8906 0.992188 14.1641 1.8125 13.8359 2.46875L9.35156 11H22.0938L17.6094 2.46875C17.2812 1.8125 17.5547 0.992188 18.1562 0.664062C18.8125 0.335938 19.6328 0.609375 19.9609 1.21094L25.0469 11H29.75C30.6797 11 31.5 11.8203 31.5 12.75C31.5 13.7344 30.6797 14.5 29.75 14.5L26.9062 25.875C26.5234 27.4062 25.1016 28.5 23.5156 28.5H7.98438C6.34375 28.5 4.97656 27.4062 4.53906 25.875L1.75 14.5C0.765625 14.5 0 13.7344 0 12.75C0 11.8203 0.765625 11 1.75 11H6.39844L11.4844 1.21094C11.8125 0.609375 12.6328 0.335938 13.2891 0.664062ZM7.875 16.6875C8.58594 16.6875 9.1875 16.1406 9.1875 15.375C9.1875 14.6641 8.58594 14.0625 7.875 14.0625C7.10938 14.0625 6.5625 14.6641 6.5625 15.375C6.5625 16.1406 7.10938 16.6875 7.875 16.6875ZM24.9375 15.375C24.9375 14.6641 24.3359 14.0625 23.625 14.0625C22.8594 14.0625 22.3125 14.6641 22.3125 15.375C22.3125 16.1406 22.8594 16.6875 23.625 16.6875C24.3359 16.6875 24.9375 16.1406 24.9375 15.375Z" fill="currentColor"></path>
+</svg>
+
+			<span class="title t-title-medium">
+				Buy
+			</span>
+		</li>
+
+	</ol>
+</div>
+</section>
+
+
+<div class="categories">
+	<h2 class="t-display-small" id="pick-your-topic">Pick your topic</h2>
+	<div class="categories-grid">
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Allergies%20%26%20Immunity" class="category-item" title="Allergies &amp; Immunity" aria-label="Allergies &amp; Immunity - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.6094 0.140625L21.4219 3.89062C22.4531 4.35938 23.25 5.34375 23.25 6.5625C23.2031 11.25 21.2812 19.7344 13.2188 23.625C12.4219 24 11.5312 24 10.7344 23.625C2.67188 19.7344 0.75 11.25 0.75 6.5625C0.703125 5.34375 1.5 4.35938 2.53125 3.89062L11.3438 0.140625C11.5312 0.046875 11.7656 0 12 0C12.1875 0 12.4219 0.046875 12.6094 0.140625ZM12 5.25C11.5781 5.25 11.25 5.625 11.25 6C11.25 7.54688 9.375 8.34375 8.25 7.26562C7.96875 6.9375 7.5 6.9375 7.21875 7.26562C6.9375 7.54688 6.9375 8.01562 7.21875 8.29688C8.29688 9.42188 7.54688 11.25 6 11.25C5.57812 11.25 5.25 11.625 5.25 12C5.25 12.4219 5.57812 12.75 6 12.75C7.54688 12.75 8.29688 14.625 7.21875 15.75C6.9375 16.0312 6.9375 16.5 7.21875 16.7812C7.5 17.0625 7.96875 17.0625 8.25 16.7812C9.375 15.7031 11.25 16.4531 11.25 18C11.25 18.4219 11.5781 18.75 12 18.75C12.375 18.75 12.75 18.4219 12.75 18C12.75 16.4531 14.5781 15.7031 15.7031 16.7812C15.9844 17.0625 16.4531 17.0625 16.7344 16.7812C17.0625 16.5 17.0625 16.0312 16.7344 15.75C15.6562 14.625 16.4531 12.75 18 12.75C18.375 12.75 18.75 12.4219 18.75 12C18.75 11.625 18.375 11.25 18 11.25C16.4531 11.25 15.6562 9.42188 16.7344 8.29688C17.0625 8.01562 17.0625 7.54688 16.7344 7.26562C16.4531 6.9375 15.9844 6.9375 15.7031 7.26562C14.5781 8.34375 12.75 7.54688 12.75 6C12.75 5.625 12.375 5.25 12 5.25ZM10.875 12C10.2188 12 9.75 11.5312 9.75 10.875C9.75 10.2656 10.2188 9.75 10.875 9.75C11.4844 9.75 12 10.2656 12 10.875C12 11.5312 11.4844 12 10.875 12ZM14.25 13.5C14.25 13.9219 13.875 14.25 13.5 14.25C13.0781 14.25 12.75 13.9219 12.75 13.5C12.75 13.125 13.0781 12.75 13.5 12.75C13.875 12.75 14.25 13.125 14.25 13.5Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Allergies &amp; Immunity</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Bone%20Health" class="category-item" title="Bone Health" aria-label="Bone Health - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.17188 2.79688C7.5 3.59375 8.15625 4.25 9 4.25H18C18.7969 4.25 19.4531 3.59375 19.7812 2.79688C20.3438 1.48438 21.6562 0.5 23.25 0.5C25.3125 0.5 27 2.1875 27 4.25C27 5.70312 26.2031 6.92188 25.0312 7.57812C24.8438 7.67188 24.75 7.8125 24.75 8C24.75 8.23438 24.8438 8.375 25.0312 8.46875C26.2031 9.125 27 10.3438 27 11.75C27 13.8594 25.3125 15.5 23.25 15.5C21.6562 15.5 20.3438 14.5625 19.7812 13.25C19.4531 12.4531 18.7969 11.75 18 11.75H9C8.15625 11.75 7.5 12.4531 7.17188 13.25C6.60938 14.5625 5.29688 15.5 3.75 15.5C1.64062 15.5 0 13.8594 0 11.75C0 10.3438 0.796875 9.125 1.96875 8.46875C2.10938 8.375 2.25 8.23438 2.25 8C2.25 7.8125 2.10938 7.67188 1.96875 7.57812C0.796875 6.92188 0 5.70312 0 4.25C0 2.1875 1.64062 0.5 3.75 0.5C5.29688 0.5 6.60938 1.48438 7.17188 2.79688Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Bone Health</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Cardiovascular%20Health" class="category-item" title="Cardiovascular Health" aria-label="Cardiovascular Health - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.6875 21.0312L2.20312 13.1094C2.01562 12.9219 1.82812 12.7344 1.64062 12.5H5.71875C6.79688 12.5 7.73438 11.8906 8.15625 10.9062L8.625 9.73438L10.9688 14.8438C11.1562 15.2656 11.5312 15.5 11.9531 15.5C12.375 15.5 12.7969 15.2656 12.9844 14.8906L15 10.9062L15.0469 11.0938C15.5156 11.9844 16.4062 12.5469 17.3906 12.5469H22.3125C22.125 12.7344 21.9375 12.9219 21.75 13.1094L13.2656 21.0312C12.9375 21.3594 12.4688 21.5 12 21.5C11.4844 21.5 11.0156 21.3594 10.6875 21.0312ZM23.5781 10.25H17.3906C17.25 10.25 17.1094 10.2031 17.0625 10.0625L15.9844 7.90625C15.7969 7.53125 15.375 7.25 14.9531 7.25C14.5312 7.25 14.1562 7.53125 13.9688 7.90625L12 11.7969L9.60938 6.45312C9.46875 6.03125 9.04688 5.75 8.57812 5.79688C8.15625 5.79688 7.73438 6.03125 7.54688 6.45312L6.09375 10.0625C6 10.2031 5.85938 10.2969 5.71875 10.2969L0.75 10.25C0.609375 10.25 0.515625 10.2969 0.375 10.3438C0.140625 9.59375 0 8.79688 0 7.95312V7.71875C0 4.4375 2.34375 1.625 5.57812 1.10938C7.73438 0.734375 9.89062 1.4375 11.4375 2.9375L12 3.5L12.5625 2.9375C14.0625 1.4375 16.2656 0.734375 18.375 1.10938C21.6094 1.625 24 4.4375 24 7.71875V7.95312C24 8.75 23.8594 9.54688 23.5781 10.25Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Cardiovascular Health</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Diabetes%20%26%20Blood%20Sugar" class="category-item" title="Diabetes &amp; Blood Sugar" aria-label="Diabetes &amp; Blood Sugar - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">§<path d="M9 24C4.03125 24 0 19.9688 0 15C0 10.7344 6.09375 2.71875 7.78125 0.5625C8.0625 0.234375 8.48438 0 8.95312 0H9C9.46875 0 9.89062 0.234375 10.1719 0.5625C11.8594 2.71875 18 10.7344 18 15C18 19.9688 13.9688 24 9 24ZM4.5 15.75C4.5 15.375 4.125 15 3.75 15C3.32812 15 3 15.375 3 15.75C3 18.6562 5.34375 21 8.25 21C8.625 21 9 20.6719 9 20.25C9 19.875 8.625 19.5 8.25 19.5C6.14062 19.5 4.5 17.8594 4.5 15.75Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Diabetes &amp; Blood Sugar</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Fat%20Loss" class="category-item" title="Fat Loss" aria-label="Fat Loss - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.4375 12.0469C17.8125 13.0312 18 14.0625 18 15.0938C18 20.0156 13.9219 24 9 24C4.03125 24 0 20.0156 0 15.0938C0 14.0625 0.140625 13.0312 0.515625 12.0469L0.5625 11.9531C2.15625 7.54688 4.78125 3.60938 8.15625 0.421875L8.34375 0.28125C8.48438 0.09375 8.71875 0 9 0C9.23438 0 9.46875 0.09375 9.60938 0.28125L9.79688 0.421875C13.2188 3.60938 15.7969 7.54688 17.3906 11.9531L17.4375 12.0469ZM13.1719 14.3438L13.0781 14.1562C12.3281 12.5156 11.2969 10.9688 10.0312 9.70312L9.60938 9.28125C9.42188 9.14062 9.1875 9.04688 8.95312 9.04688C8.71875 9.04688 8.48438 9.14062 8.34375 9.28125L7.92188 9.70312C6.60938 10.9688 5.57812 12.5156 4.875 14.1562L4.78125 14.3438C4.59375 14.8125 4.45312 15.2812 4.45312 15.75C4.45312 18.2344 6.46875 20.25 8.95312 20.25C11.4375 20.25 13.4531 18.2344 13.4531 15.75C13.4531 15.2812 13.3594 14.8125 13.1719 14.3438Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Fat Loss</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Healthy%20Aging" class="category-item" title="Healthy Aging" aria-label="Healthy Aging - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 1.5C24 6.84375 20.0156 11.25 14.8594 11.9062C14.5312 9.42188 13.4531 7.17188 11.8125 5.39062C13.5938 2.20312 17.0625 0 21 0H22.5C23.2969 0 24 0.703125 24 1.5ZM0 4.5C0 3.70312 0.65625 3 1.5 3H3C8.76562 3 13.5 7.73438 13.5 13.5V15V22.5C13.5 23.3438 12.7969 24 12 24C11.1562 24 10.5 23.3438 10.5 22.5V15C4.6875 15 0 10.3125 0 4.5Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Healthy Aging</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Joint%20Health" class="category-item" title="Joint Health" aria-label="Joint Health - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 3.25C15.5 4.09375 15.0312 4.79688 14.375 5.21875C13.6719 5.64062 12.7812 5.64062 12.125 5.21875C11.4219 4.79688 11 4.09375 11 3.25C11 2.45312 11.4219 1.75 12.125 1.32812C12.7812 0.90625 13.6719 0.90625 14.375 1.32812C15.0312 1.75 15.5 2.45312 15.5 3.25ZM6.35938 9.25L5.28125 10.3281C4.71875 10.9375 3.73438 10.9375 3.17188 10.3281C2.5625 9.76562 2.5625 8.78125 3.17188 8.21875L4.25 7.14062C5.28125 6.10938 6.6875 5.5 8.14062 5.5C8.70312 5.5 9.21875 5.59375 9.73438 5.78125L12.0312 6.48438C13.7188 7 15.125 8.26562 15.7812 9.90625L16.1094 10.6094C16.3438 11.1719 16.8594 11.5 17.4688 11.5H18.5C19.2969 11.5 20 12.2031 20 13C20 13.8438 19.2969 14.5 18.5 14.5H17.4688C15.6406 14.5 14.0469 13.4219 13.3438 11.7344L13.0625 11.1719L11.6562 15.0156L14.2812 16.7031C15.125 17.2188 15.5469 18.25 15.2656 19.2344L13.9062 23.9219C13.6719 24.7188 12.875 25.1875 12.0781 24.9531C11.2812 24.7188 10.8125 23.9219 11.0469 23.125L12.2188 18.9531L8.1875 16.4219C7.01562 15.6719 6.5 14.2188 6.92188 12.9062L8.375 8.54688C8.32812 8.54688 8.23438 8.5 8.14062 8.5C7.48438 8.5 6.82812 8.78125 6.35938 9.25ZM4.76562 17.5L5.60938 15.5781C5.98438 16.4219 6.59375 17.1719 7.39062 17.6875L7.85938 17.9688L7.29688 19.1875C6.92188 19.9844 6.125 20.5 5.23438 20.5H2C1.15625 20.5 0.5 19.8438 0.5 19C0.5 18.2031 1.15625 17.5 2 17.5H4.76562Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Joint Health</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Libido%20%26%20Sexual%20Function" class="category-item" title="Libido &amp; Sexual Function" aria-label="Libido &amp; Sexual Function - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.75 13.5C10.625 13.5 12.3125 12.5156 13.25 10.875C14.2344 9.28125 14.2344 7.26562 13.25 5.625C12.3125 4.03125 10.625 3 8.75 3C6.82812 3 5.14062 4.03125 4.20312 5.625C3.21875 7.26562 3.21875 9.28125 4.20312 10.875C5.14062 12.5156 6.82812 13.5 8.75 13.5ZM17 8.25C17 12.3281 14.0469 15.7031 10.25 16.4062V18H11.75C12.5469 18 13.25 18.7031 13.25 19.5C13.25 20.3438 12.5469 21 11.75 21H10.25V22.5C10.25 23.3438 9.54688 24 8.75 24C7.90625 24 7.25 23.3438 7.25 22.5V21H5.75C4.90625 21 4.25 20.3438 4.25 19.5C4.25 18.7031 4.90625 18 5.75 18H7.25V16.4062C3.40625 15.7031 0.5 12.3281 0.5 8.25C0.5 3.70312 4.15625 0 8.75 0C13.2969 0 17 3.70312 17 8.25ZM13.2031 16.9219C14.1406 16.4531 14.9375 15.8438 15.6875 15.1406C16.625 15.9844 17.8438 16.5 19.25 16.5C22.1562 16.5 24.5 14.1562 24.5 11.25C24.5 8.39062 22.1562 6 19.25 6C18.875 6 18.5469 6.04688 18.2656 6.09375C18.0312 5.10938 17.6562 4.17188 17.1406 3.28125C17.7969 3.09375 18.5 3 19.25 3C20.9844 3 22.5781 3.5625 23.8906 4.45312L24.875 3.51562L23.3281 1.92188C23 1.64062 22.9062 1.125 23.0469 0.703125C23.2344 0.28125 23.6562 0 24.125 0H29.375C29.9844 0 30.5 0.515625 30.5 1.125V6.375C30.5 6.84375 30.2188 7.26562 29.7969 7.45312C29.375 7.59375 28.8594 7.5 28.5781 7.17188L26.9844 5.625L26.0469 6.60938C26.9375 7.92188 27.5 9.51562 27.5 11.25C27.5 15.8438 23.7969 19.5 19.25 19.5C16.8594 19.5 14.75 18.5156 13.2031 16.9219Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Libido &amp; Sexual Function</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Liver%20Health" class="category-item" title="Liver Health" aria-label="Liver Health - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 1.5C0.5 0.703125 1.15625 0 2 0H17C17.7969 0 18.5 0.703125 18.5 1.5V3C18.5 3.84375 17.7969 4.5 17 4.5H2C1.15625 4.5 0.5 3.84375 0.5 3V1.5ZM2 6H17V21C17 22.6875 15.6406 24 14 24H5C3.3125 24 2 22.6875 2 21V6ZM8 11.25V13.5H5.75C5.32812 13.5 5 13.875 5 14.25V15.75C5 16.1719 5.32812 16.5 5.75 16.5H8V18.75C8 19.1719 8.32812 19.5 8.75 19.5H10.25C10.625 19.5 11 19.1719 11 18.75V16.5H13.25C13.625 16.5 14 16.1719 14 15.75V14.25C14 13.875 13.625 13.5 13.25 13.5H11V11.25C11 10.875 10.625 10.5 10.25 10.5H8.75C8.32812 10.5 8 10.875 8 11.25Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Liver Health</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Memory%20%26%20Focus" class="category-item" title="Memory &amp; Focus" aria-label="Memory &amp; Focus - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.125 0C10.5312 0 11.75 1.21875 11.75 2.625V21.375C11.75 22.8281 10.5312 24 9.125 24C7.76562 24 6.64062 23.0156 6.5 21.6562C6.26562 21.75 5.98438 21.75 5.75 21.75C4.0625 21.75 2.75 20.4375 2.75 18.75C2.75 18.4219 2.79688 18.0938 2.89062 17.7656C1.48438 17.25 0.5 15.8906 0.5 14.25C0.5 12.7969 1.34375 11.4844 2.60938 10.875C2.23438 10.3594 2 9.70312 2 9C2 7.59375 2.98438 6.375 4.34375 6.09375C4.25 5.8125 4.25 5.53125 4.25 5.25C4.25 3.89062 5.1875 2.67188 6.5 2.34375C6.64062 1.03125 7.76562 0 9.125 0ZM15.875 0C17.1875 0 18.3125 1.03125 18.4531 2.34375C19.7656 2.67188 20.75 3.84375 20.75 5.25C20.75 5.53125 20.7031 5.8125 20.6094 6.09375C21.9688 6.375 23 7.59375 23 9C23 9.70312 22.7188 10.3594 22.3438 10.875C23.6094 11.4844 24.5 12.7969 24.5 14.25C24.5 15.8906 23.4688 17.25 22.0625 17.7656C22.1562 18.0938 22.25 18.4219 22.25 18.75C22.25 20.4375 20.8906 21.75 19.25 21.75C18.9688 21.75 18.6875 21.75 18.4531 21.6562C18.3125 23.0156 17.1875 24 15.875 24C14.4219 24 13.25 22.8281 13.25 21.375V2.625C13.25 1.21875 14.4219 0 15.875 0Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Memory &amp; Focus</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Mood%20%26%20Depression" class="category-item" title="Mood &amp; Depression" aria-label="Mood &amp; Depression - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 24C9.1875 24 5.25 21.75 3.09375 18C0.9375 14.2969 0.9375 9.75 3.09375 6C5.25 2.29688 9.1875 0 13.5 0C17.7656 0 21.7031 2.29688 23.8594 6C26.0156 9.75 26.0156 14.2969 23.8594 18C21.7031 21.75 17.7656 24 13.5 24ZM9.1875 15.2812C8.90625 14.9531 8.4375 14.9531 8.10938 15.1875C7.78125 15.4688 7.78125 15.9375 8.01562 16.2656C9.09375 17.4844 10.875 18.75 13.5 18.75C16.0781 18.75 17.8594 17.4844 18.9375 16.2656C19.1719 15.9375 19.1719 15.4688 18.8438 15.1875C18.5156 14.9531 18.0469 14.9531 17.7656 15.2812C16.9688 16.2656 15.5156 17.25 13.5 17.25C11.4375 17.25 10.0312 16.2656 9.1875 15.2812ZM8.25 9.75C8.25 10.5938 8.90625 11.25 9.75 11.25C10.5938 11.25 11.25 10.5938 11.25 9.75C11.25 8.95312 10.5938 8.25 9.75 8.25C8.90625 8.25 8.25 8.95312 8.25 9.75ZM17.25 8.25C16.4062 8.25 15.75 8.95312 15.75 9.75C15.75 10.5938 16.4062 11.25 17.25 11.25C18.0938 11.25 18.75 10.5938 18.75 9.75C18.75 8.95312 18.0938 8.25 17.25 8.25Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Mood &amp; Depression</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+		
+
+					<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=Muscle%20Gain%20%26%20Exercise%20Performance" class="category-item" title="Muscle Gain &amp; Exercise Performance" aria-label="Muscle Gain &amp; Exercise Performance - Learn more">
+				<div class="category-icon" aria-hidden="true">
+					<svg width="31" height="22" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 2C5 1.20312 5.65625 0.5 6.5 0.5H8C8.79688 0.5 9.5 1.20312 9.5 2V9.5V12.5V20C9.5 20.8438 8.79688 21.5 8 21.5H6.5C5.65625 21.5 5 20.8438 5 20V17H3.5C2.65625 17 2 16.3438 2 15.5V12.5C1.15625 12.5 0.5 11.8438 0.5 11C0.5 10.2031 1.15625 9.5 2 9.5V6.5C2 5.70312 2.65625 5 3.5 5H5V2ZM26 2V5H27.5C28.2969 5 29 5.70312 29 6.5V9.5C29.7969 9.5 30.5 10.2031 30.5 11C30.5 11.8438 29.7969 12.5 29 12.5V15.5C29 16.3438 28.2969 17 27.5 17H26V20C26 20.8438 25.2969 21.5 24.5 21.5H23C22.1562 21.5 21.5 20.8438 21.5 20V12.5V9.5V2C21.5 1.20312 22.1562 0.5 23 0.5H24.5C25.2969 0.5 26 1.20312 26 2ZM20 9.5V12.5H11V9.5H20Z" fill="currentColor"></path></svg>
+				</div>
+				<div class="category-text t-title-small">Muscle Gain &amp; Exercise Performance</div>
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+
+			</a>
+		
+	</div>
+
+	<!-- Custom Input Section -->
+	<div class="custom-input-section">
+		<h3 class="t-title-medium" id="or-describe-your-own-topic">Or describe your own topic</h3>
+		<div class="input-container">
+			<textarea id="customInput" class="custom-textarea" placeholder="Describe what you&#39;re looking for..." rows="3" aria-label="Describe what you&#39;re looking for..."></textarea>
+			<button id="sendButton" class="send-button" type="button" aria-label="Send" disabled="">
+				<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+			</button>
+		</div>
+	</div>
+
+	<div class="ai-button-container">
+	<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20start%20my%20personalized%20supplement%20plan" class="ai-button" role="button" aria-label="Start Now - I want to start my personalized supplement plan" title="Start Now">
+		<div class="ai-button-label t-title-small">Start Now</div>
+		<div class="avatar-container">
+			<div class="ai-avatar compact">
+			<div class="head">
+				<div class="face">
+					<div class="eyes"></div>
+					<div class="mouth"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</a>
+</div>
+
+
+</div>
+
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+	<svg class="arrow" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M17.2779 9.16737L10.3668 15.7644C9.97407 16.1178 9.38505 16.1178 9.03164 15.7251C8.67823 15.3324 8.67823 14.7434 9.07091 14.39L14.2936 9.40298H0.942432C0.39268 9.40298 0 9.0103 0 8.46054C0 7.95006 0.39268 7.51811 0.942432 7.51811H14.2936L9.07091 2.57034C8.67823 2.21693 8.67823 1.58864 9.03164 1.23523C9.38505 0.842551 10.0133 0.842551 10.3668 1.19596L17.2779 7.79299C17.4743 7.98933 17.5921 8.22494 17.5921 8.46054C17.5921 8.73542 17.4743 8.97103 17.2779 9.16737Z" fill="currentColor"></path>
+	</svg>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	const textarea = document.getElementById('customInput');
+	const sendButton = document.getElementById('sendButton');
+	const scrollToTopButton = document.getElementById('scrollToTop');
+	const appUrl = 'https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=';
+
+	// Enable/disable send button based on textarea content
+	function toggleSendButton() {
+		const hasText = textarea.value.trim().length > 0;
+		sendButton.disabled = !hasText;
+	}
+
+	// Send function
+	function sendCustomInput() {
+		const text = textarea.value.trim();
+		if (text) {
+			const encodedText = encodeURIComponent(text);
+			window.open(appUrl + encodedText, '_blank');
+		}
+	}
+
+	// Scroll to top function
+	function scrollToTop() {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		});
+		// Remove focus from button after click
+		setTimeout(() => {
+			scrollToTopButton.blur();
+		}, 100);
+	}
+
+	// Show/hide scroll to top button based on scroll position
+	function toggleScrollToTopButton() {
+		if (window.pageYOffset > 300) {
+			scrollToTopButton.classList.add('visible');
+		} else {
+			scrollToTopButton.classList.remove('visible');
+		}
+	}
+
+	// Event listeners
+	textarea.addEventListener('input', toggleSendButton);
+	textarea.addEventListener('keydown', function(e) {
+		if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+			e.preventDefault();
+			sendCustomInput();
+		}
+	});
+
+	sendButton.addEventListener('click', sendCustomInput);
+	scrollToTopButton.addEventListener('click', scrollToTop);
+	window.addEventListener('scroll', toggleScrollToTopButton);
+
+	// Initial state
+	toggleSendButton();
+	toggleScrollToTopButton();
+});
+</script>
+
+<div class="pain-points">
+	<h2 class="t-display-small" id="where-are-your-pain-points">Where are your pain points?</h2>
+	<p class="pain-points-subtitle">We&#39;ve all been there - here&#39;s how choicera helps.</p>
+	
+	<div class="pain-points-grid">
+		
+		<div class="pain-point-card">
+			<div class="pain-point-header">
+				<div class="pain-point-icon pain-point-icon-1">
+					<svg width="39" height="32" viewBox="0 0 39 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.4693 4.70389C23.4693 6.5239 22.1953 8.04058 20.5573 8.46524V29.9413H32.2053C32.6906 29.9413 33.176 30.4267 33.176 30.912C33.176 31.458 32.6906 31.8827 32.2053 31.8827H19.5866H6.96785C6.42185 31.8827 5.99718 31.458 5.99718 30.912C5.99718 30.4267 6.42185 29.9413 6.96785 29.9413H18.6159V8.46524C16.9172 8.04058 15.7039 6.5239 15.7039 4.70389H6.96785C6.42185 4.70389 5.99718 4.27922 5.99718 3.73322C5.99718 3.24789 6.42185 2.76255 6.96785 2.76255H16.1892C16.8566 1.60988 18.1306 0.821209 19.5866 0.821209C20.9819 0.821209 22.2559 1.60988 22.9233 2.76255H31.2346C31.72 2.76255 32.2053 3.24789 32.2053 3.73322C32.2053 4.27922 31.72 4.70389 31.2346 4.70389H23.4693ZM26.8666 22.8433C27.898 23.632 29.4146 24.1173 31.2346 24.1173C32.994 24.1173 34.5106 23.632 35.542 22.8433C36.5733 22.0546 37.0587 21.1446 37.0587 20.2346H25.4106V20.174V20.2953C25.4106 21.1446 25.8353 22.0546 26.8666 22.8433ZM31.2346 9.79992L26.0173 18.2933H36.3913L31.2346 9.79992ZM23.4693 20.2346V20.174C23.4693 19.264 23.7119 18.4146 24.1366 17.626L29.718 8.46524C30.0213 7.97991 30.628 7.61591 31.2346 7.61591C31.7806 7.61591 32.3873 7.97991 32.6906 8.46524L38.272 17.626C38.6967 18.4146 39 19.264 39 20.174V20.2346C39 23.45 35.4813 26.0587 31.2346 26.0587C26.9273 26.0587 23.4693 23.45 23.4693 20.2346ZM2.1145 20.2346C2.1145 21.1446 2.53917 22.0546 3.57051 22.8433C4.60184 23.632 6.11852 24.1173 7.93853 24.1173C9.69787 24.1173 11.2145 23.632 12.2459 22.8433C13.2772 22.0546 13.7626 21.1446 13.7626 20.2346H2.1145V20.174V20.2953V20.2346ZM2.72117 18.2933H13.0952L7.93853 9.79992L2.72117 18.2933ZM7.93853 26.0587C3.63117 26.0587 0.173157 23.45 0.173157 20.2346V20.174C0.173157 19.264 0.415825 18.4146 0.840493 17.626L6.42185 8.46524C6.72519 7.97991 7.33186 7.61591 7.93853 7.61591C8.48453 7.61591 9.0912 7.97991 9.39453 8.46524L14.9759 17.626C15.4006 18.4146 15.7039 19.264 15.7039 20.174V20.2346C15.7039 23.45 12.1852 26.0587 7.93853 26.0587ZM19.5866 6.64524C20.6179 6.64524 21.5279 5.7959 21.5279 4.70389C21.5279 3.67256 20.6179 2.76255 19.5866 2.76255C18.4946 2.76255 17.6452 3.67256 17.6452 4.70389C17.6452 5.7959 18.4946 6.64524 19.5866 6.64524Z" fill="currentColor"></path></svg>
+				</div>
+				<h3 class="pain-point-title" id="looking-for-balance-not-hype">Looking for balance, not hype?</h3>
+			</div>
+			<div class="pain-point-content">
+				<p class="pain-point-description">You don&#39;t want another quick fix - you want something that actually makes sense.</p>
+				<button class="pain-point-button" onclick="window.open('https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20find%20balance', '_blank')" aria-label="Find balance">
+					Find balance
+				</button>
+			</div>
+		</div>
+		
+		<div class="pain-point-card">
+			<div class="pain-point-header">
+				<div class="pain-point-icon pain-point-icon-2">
+					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.87987 16.3519V16.4126C2.87987 17.626 3.0012 18.8393 3.3652 19.992C3.48654 20.538 3.1832 21.084 2.6372 21.2053C2.15186 21.3266 1.60586 21.0233 1.48453 20.538C1.12053 19.2033 0.938524 17.808 0.938524 16.3519C0.938524 7.79791 7.85456 0.821209 16.4693 0.821209C25.0233 0.821209 32 7.79791 32 16.3519C32 23.8746 26.6613 30.184 19.5633 31.5793C19.0173 31.7007 18.5319 31.3973 18.4106 30.8513C18.2893 30.3053 18.6533 29.82 19.1386 29.6987C25.3873 28.4247 30.0587 22.9646 30.0587 16.3519C30.0587 8.88991 23.9313 2.76255 16.4693 2.76255C8.94656 2.76255 2.87987 8.88991 2.87987 16.3519ZM12.8899 16.4126L20.2306 18.9C21.3226 19.264 22.1113 20.2346 22.2326 21.3266C22.4146 22.6613 21.6866 23.9353 20.4126 24.4207L17.5613 25.5733L16.1053 29.1527C15.4379 30.8513 13.8606 31.8827 12.0406 31.8827H9.18923C6.76255 31.8827 4.82121 29.9413 4.82121 27.5147V20.2346C4.82121 18.6573 6.09521 17.3226 7.73322 17.3226C9.31056 17.3226 10.6452 18.6573 10.6452 20.2346V21.994L16.5299 19.6886L12.2832 18.2933C11.7372 18.1113 11.4946 17.5653 11.6159 17.0193C11.7979 16.5339 12.3439 16.2306 12.8899 16.4126ZM20.3519 21.63C20.2913 21.5693 20.2913 21.448 20.2306 21.3873C20.0486 20.8413 19.5026 20.5986 19.0173 20.8413L9.9779 24.36C9.67456 24.4207 9.37123 24.4207 9.12856 24.2386C8.82523 24.0566 8.70389 23.7533 8.70389 23.45V20.2346C8.70389 19.7493 8.21856 19.264 7.73322 19.264C7.18722 19.264 6.76255 19.7493 6.76255 20.2346V27.5147C6.76255 28.91 7.79389 29.9413 9.18923 29.9413H12.0406C13.0719 29.9413 13.9213 29.3347 14.2853 28.4247L15.8626 24.4813C15.9233 24.4813 15.9233 24.4813 15.9233 24.4813C15.9839 24.178 16.2266 23.996 16.4693 23.8746L19.6846 22.6006C20.1093 22.4793 20.3519 22.1153 20.3519 21.6906C20.3519 21.6906 20.3519 21.6906 20.3519 21.63ZM13.0719 12.4693C13.0719 13.3186 12.4046 13.9253 11.6159 13.9253C10.8272 13.9253 10.1599 13.3186 10.1599 12.4693C10.1599 11.6806 10.8272 11.0133 11.6159 11.0133C12.4046 11.0133 13.0719 11.6806 13.0719 12.4693ZM21.3226 14.8959C20.5339 14.8959 19.8666 14.2893 19.8666 13.4399C19.8666 12.6513 20.5339 11.9839 21.3226 11.9839C22.1113 11.9839 22.7786 12.6513 22.7786 13.4399C22.7786 14.2893 22.1113 14.8959 21.3226 14.8959ZM14.0426 9.61792C12.7686 8.58658 11.0092 8.40458 9.55323 9.19325L9.12856 9.43591C8.70389 9.73925 8.09722 9.55725 7.85456 9.07191C7.55122 8.64724 7.73322 8.04058 8.21856 7.79791L8.64323 7.55524C10.7666 6.28123 13.4359 6.58457 15.3166 8.16191L16.1053 8.82925C16.5299 9.19325 16.5906 9.79992 16.2266 10.2246C15.8626 10.6493 15.2559 10.6493 14.8313 10.3459L14.0426 9.61792Z" fill="currentColor"></path></svg>
+				</div>
+				<h3 class="pain-point-title" id="overwhelmed-by-supplement-advice">Overwhelmed by supplement advice?</h3>
+			</div>
+			<div class="pain-point-content">
+				<p class="pain-point-description">One day it&#39;s Ashwagandha, the next it&#39;s Lion&#39;s Mane. You just want clarity.</p>
+				<button class="pain-point-button" onclick="window.open('https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20need%20clarity%20on%20supplements', '_blank')" aria-label="Get clarity">
+					Get clarity
+				</button>
+			</div>
+		</div>
+		
+		<div class="pain-point-card">
+			<div class="pain-point-header">
+				<div class="pain-point-icon pain-point-icon-3">
+					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.67456 5.4319C9.6139 5.85657 9.31056 6.1599 8.94656 6.28123C7.67256 6.58457 6.76255 7.73724 6.76255 9.07191C6.76255 9.31458 6.76255 9.49658 6.76255 9.67858C6.88388 10.1033 6.64122 10.5886 6.15588 10.7706C5.06388 11.1346 4.33587 12.2266 4.33587 13.4399C4.33587 13.8039 4.33587 14.1073 4.45721 14.3499C4.57854 14.7746 4.45721 15.1386 4.15387 15.3813C3.3652 16.1093 2.87987 17.1406 2.87987 18.2933C2.87987 19.6886 3.60787 20.902 4.69987 21.63C5.06388 21.8726 5.24588 22.358 5.06388 22.8433C4.88188 23.2073 4.82121 23.6926 4.82121 24.1173C4.82121 25.998 6.33788 27.5147 8.21856 27.5147C8.40056 27.5147 8.58256 27.5147 8.76456 27.5147C9.2499 27.3933 9.67456 27.6967 9.85657 28.1213C10.2812 29.2133 11.3126 29.9413 12.5259 29.9413C14.1639 29.9413 15.4379 28.6673 15.4379 27.0293V5.67456C15.4379 4.09722 14.1639 2.76255 12.5259 2.76255C11.0092 2.76255 9.7959 3.97589 9.67456 5.4319ZM16.4693 29.9413C15.5593 31.1547 14.1639 31.8827 12.5866 31.8827C10.7666 31.8827 9.18923 30.912 8.33989 29.456C8.27922 29.456 8.21856 29.456 8.21856 29.456C5.24588 29.456 2.87987 27.09 2.87987 24.1173C2.87987 23.6926 2.94053 23.2073 3.0012 22.7826C1.72719 21.7513 0.938524 20.1133 0.938524 18.2933C0.938524 16.7766 1.48453 15.3813 2.4552 14.3499C2.39453 14.1073 2.39453 13.8039 2.39453 13.4399C2.39453 11.6806 3.3652 10.1033 4.82121 9.25391C4.82121 9.19325 4.82121 9.13258 4.82121 9.07191C4.82121 7.0699 6.03455 5.31056 7.85456 4.58256C8.33989 2.45922 10.2812 0.821209 12.5866 0.821209C14.1639 0.821209 15.5593 1.60988 16.4693 2.76255C17.3186 1.60988 18.7139 0.821209 20.3519 0.821209C22.5966 0.821209 24.538 2.45922 25.0233 4.58256C26.8433 5.31056 28.1173 7.0699 28.1173 9.07191C28.1173 9.13258 28.1173 9.19325 28.1173 9.25391C29.5127 10.1033 30.544 11.6806 30.544 13.4399C30.544 13.8039 30.4833 14.1073 30.4227 14.3499C31.3933 15.4419 32 16.7766 32 18.2933C32 20.1133 31.1507 21.7513 29.8767 22.7826C29.998 23.268 30.0587 23.6926 30.0587 24.1173C30.0587 27.09 27.632 29.456 24.72 29.456C24.6593 29.456 24.5986 29.456 24.538 29.456C23.6886 30.912 22.1113 31.8827 20.3519 31.8827C18.7139 31.8827 17.3186 31.1547 16.4693 29.9413ZM17.4399 27.0293C17.4399 28.6673 18.7139 29.9413 20.3519 29.9413C21.5653 29.9413 22.5966 29.2133 23.0213 28.1213C23.2033 27.6967 23.628 27.3933 24.1133 27.5147C24.2953 27.5147 24.4773 27.5147 24.6593 27.5147C26.54 27.5147 28.0566 25.998 28.0566 24.1173C28.0566 23.6926 27.996 23.2073 27.814 22.8433C27.632 22.358 27.814 21.8726 28.178 21.63C29.3307 20.902 30.0587 19.6886 30.0587 18.2933C30.0587 17.1406 29.5127 16.1093 28.724 15.3813C28.4207 15.1386 28.2993 14.7139 28.4207 14.3499C28.542 14.1073 28.6027 13.8039 28.6027 13.4399C28.6027 12.2266 27.814 11.1346 26.722 10.7099C26.2366 10.5886 25.994 10.1033 26.1153 9.61792C26.1153 9.43591 26.176 9.25391 26.176 9.07191C26.176 7.73724 25.2053 6.58457 23.9313 6.28123C23.5673 6.1599 23.264 5.7959 23.2033 5.4319C23.082 3.97589 21.8686 2.76255 20.3519 2.76255C18.7139 2.76255 17.4399 4.09722 17.4399 5.67456V27.0293Z" fill="currentColor"></path></svg>
+				</div>
+				<h3 class="pain-point-title" id="feeling-mentally-drained">Feeling mentally drained?</h3>
+			</div>
+			<div class="pain-point-content">
+				<p class="pain-point-description">You&#39;re exhausted, scattered, and can&#39;t seem to concentrate on anything.</p>
+				<button class="pain-point-button" onclick="window.open('https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20boost%20my%20focus', '_blank')" aria-label="Boost focus">
+					Boost focus
+				</button>
+			</div>
+		</div>
+		
+		<div class="pain-point-card">
+			<div class="pain-point-header">
+				<div class="pain-point-icon pain-point-icon-4">
+					<svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.2306 2.88589C6.77059 3.85657 2.64524 8.64925 2.64524 14.3519C2.64524 20.8433 7.80193 26 14.2326 26C16.2953 26 18.2366 25.454 19.9353 24.544C13.5046 23.998 8.4086 18.538 8.4086 11.9253C8.4086 8.40659 9.8646 5.19124 12.2306 2.88589ZM16.2346 1.61189C16.356 2.03656 16.174 2.46123 15.81 2.64323C12.5339 4.46323 10.3499 7.98192 10.3499 11.9253C10.3499 17.8706 15.1426 22.6027 21.0273 22.6027C21.634 22.6027 22.2407 22.6027 22.8473 22.4813C23.272 22.4207 23.6967 22.6027 23.8787 22.9667C24.0607 23.3913 24 23.816 23.6967 24.1193C21.27 26.4853 17.9333 27.9413 14.2326 27.9413C6.77059 27.9413 0.703894 21.8746 0.703894 14.3519C0.703894 6.88991 6.77059 0.762551 14.2326 0.762551C14.5966 0.762551 15.0213 0.823218 15.3853 0.823218C15.81 0.883885 16.174 1.18722 16.2346 1.61189Z" fill="currentColor"></path></svg>
+				</div>
+				<h3 class="pain-point-title" id="struggling-with-sleep-lately">Struggling with sleep lately?</h3>
+			</div>
+			<div class="pain-point-content">
+				<p class="pain-point-description">Melatonin, magnesium, or neither? You&#39;re tired of googling it.</p>
+				<button class="pain-point-button" onclick="window.open('https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20fix%20my%20sleep', '_blank')" aria-label="Fix sleep">
+					Fix sleep
+				</button>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="trust">
+	
+	<div class="trust-section">
+		<h2 class="trust-title t-display-small" id="loved-by-people">Loved by People</h2>
+		<div class="trust-grid">
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/fYbKq0GTw3-411.avif 411w"><source type="image/webp" srcset="/img/fYbKq0GTw3-411.webp 411w"><img loading="lazy" decoding="async" src="/img/fYbKq0GTw3-411.png" alt="Julia" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Julia</span>
+						<div class="trust-details">
+							
+							<picture><source type="image/avif" srcset="/img/KegdmjKa3V-512.avif 512w"><source type="image/webp" srcset="/img/KegdmjKa3V-512.webp 512w"><img loading="lazy" decoding="async" src="/img/KegdmjKa3V-512.svg" alt="Deutschland" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						I was overwhelmed by all the wellness advice out there. Choicera helped me focus on what actually matters – without the fluff.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/sy8YR3ggP9-411.avif 411w"><source type="image/webp" srcset="/img/sy8YR3ggP9-411.webp 411w"><img loading="lazy" decoding="async" src="/img/sy8YR3ggP9-411.png" alt="Nate" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Nate</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Health Creator</span>
+							
+							<picture><source type="image/avif" srcset="/img/8FCG2aM6Gn-512.avif 512w"><source type="image/webp" srcset="/img/8FCG2aM6Gn-512.webp 512w"><img loading="lazy" decoding="async" src="/img/8FCG2aM6Gn-512.svg" alt="USA" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						Finally a platform that doesn&#39;t just push products – it guides you. My audience loves it.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/udu5Es2wVN-411.avif 411w"><source type="image/webp" srcset="/img/udu5Es2wVN-411.webp 411w"><img loading="lazy" decoding="async" src="/img/udu5Es2wVN-411.png" alt="Dr. Sofia Lund" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Dr. Sofia Lund</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Functional Medicine</span>
+							
+							<picture><source type="image/avif" srcset="/img/Wv1GnzXkOZ-512.avif 512w"><source type="image/webp" srcset="/img/Wv1GnzXkOZ-512.webp 512w"><img loading="lazy" decoding="async" src="/img/Wv1GnzXkOZ-512.svg" alt="Schweden" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						As a health coach, I&#39;m impressed by how Choicera combines AI with real-world relevance. It&#39;s smart and refreshingly unbiased.
+					</blockquote>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="trust-section">
+		<h2 class="trust-title t-display-small" id="trusted-by">Trusted By</h2>
+		<div class="trust-grid">
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/aTNcIHkHeQ-1080.avif 1080w"><source type="image/webp" srcset="/img/aTNcIHkHeQ-1080.webp 1080w"><img loading="lazy" decoding="async" src="/img/aTNcIHkHeQ-1080.jpeg" alt="Andreas Breitfeld" class="trust-photo" width="1080" height="1080"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Andreas Breitfeld</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Biohacking Expert</span>
+							
+							<picture><source type="image/avif" srcset="/img/KegdmjKa3V-512.avif 512w"><source type="image/webp" srcset="/img/KegdmjKa3V-512.webp 512w"><img loading="lazy" decoding="async" src="/img/KegdmjKa3V-512.svg" alt="Deutschland" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						I believe in intentional, nature-aligned self-optimization. Choicera empowers users to take ownership of their own biology—enhancing vitality, clarity, and sustainable performance through personalized, science-backed choices.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/7J1Z3NpKrP-816.avif 816w"><source type="image/webp" srcset="/img/7J1Z3NpKrP-816.webp 816w"><img loading="lazy" decoding="async" src="/img/7J1Z3NpKrP-816.jpeg" alt="Dr. Lutz Graumann" class="trust-photo" width="816" height="816"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Dr. Lutz Graumann</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Sports &amp; Performance Medicine Expert</span>
+							
+							<picture><source type="image/avif" srcset="/img/KegdmjKa3V-512.avif 512w"><source type="image/webp" srcset="/img/KegdmjKa3V-512.webp 512w"><img loading="lazy" decoding="async" src="/img/KegdmjKa3V-512.svg" alt="Deutschland" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						Performance and health are rooted in individual data-driven strategies. Choicera offers a smart, personalized path—integrating lifestyle, nutrition and recovery—to help users make meaningful, incremental gains every day.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/6o1KoDSOOY-1707.avif 1707w"><source type="image/webp" srcset="/img/6o1KoDSOOY-1707.webp 1707w"><img loading="lazy" decoding="async" src="/img/6o1KoDSOOY-1707.jpeg" alt="Holly Wilkinson" class="trust-photo" width="1707" height="2560"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Holly Wilkinson</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Nutrition Scientist &amp; Holistic Coach</span>
+							
+							<picture><source type="image/avif" srcset="/img/0XJ-4xNUiv-512.avif 512w"><source type="image/webp" srcset="/img/0XJ-4xNUiv-512.webp 512w"><img loading="lazy" decoding="async" src="/img/0XJ-4xNUiv-512.svg" alt="Großbritannien" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						Health is holistic—mind, body, and lifestyle are all part of the equation. Choicera respects that complexity, giving users simple yet science-informed choices to nurture their wellbeing in a balanced, sustainable way.
+					</blockquote>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="trust-section">
+		<h2 class="trust-title t-display-small" id="recommended-by">Recommended By</h2>
+		<div class="trust-grid">
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/fYbKq0GTw3-411.avif 411w"><source type="image/webp" srcset="/img/fYbKq0GTw3-411.webp 411w"><img loading="lazy" decoding="async" src="/img/fYbKq0GTw3-411.png" alt="Wellness Emma" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Wellness Emma</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Wellness Influencer</span>
+							
+							<picture><source type="image/avif" srcset="/img/0XJ-4xNUiv-512.avif 512w"><source type="image/webp" srcset="/img/0XJ-4xNUiv-512.webp 512w"><img loading="lazy" decoding="async" src="/img/0XJ-4xNUiv-512.svg" alt="Großbritannien" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						My followers trust my recommendations, and I trust Choicera. It&#39;s the only platform I consistently recommend for wellness guidance.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/sy8YR3ggP9-411.avif 411w"><source type="image/webp" srcset="/img/sy8YR3ggP9-411.webp 411w"><img loading="lazy" decoding="async" src="/img/sy8YR3ggP9-411.png" alt="Fitness Lucas" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Fitness Lucas</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Fitness Coach</span>
+							
+							<picture><source type="image/avif" srcset="/img/pGNG5eoJRV-512.avif 512w"><source type="image/webp" srcset="/img/pGNG5eoJRV-512.webp 512w"><img loading="lazy" decoding="async" src="/img/pGNG5eoJRV-512.svg" alt="Frankreich" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						As a fitness coach, I need reliable supplement guidance. Choicera has become my go-to resource for evidence-based recommendations.
+					</blockquote>
+				</div>
+			</div>
+			
+			<div class="trust-card">
+				<div class="trust-image">
+					<picture><source type="image/avif" srcset="/img/udu5Es2wVN-411.avif 411w"><source type="image/webp" srcset="/img/udu5Es2wVN-411.webp 411w"><img loading="lazy" decoding="async" src="/img/udu5Es2wVN-411.png" alt="Health Sarah" class="trust-photo" width="411" height="371"></picture>
+					<div class="trust-attribution">
+						<span class="trust-name">Health Sarah</span>
+						<div class="trust-details">
+							
+							<span class="trust-job-title">Health Blogger</span>
+							
+							<picture><source type="image/avif" srcset="/img/fuTZEI4HdM-512.avif 512w"><source type="image/webp" srcset="/img/fuTZEI4HdM-512.webp 512w"><img loading="lazy" decoding="async" src="/img/fuTZEI4HdM-512.svg" alt="Australien" class="trust-flag" width="512" height="512"></picture>
+						</div>
+					</div>
+				</div>
+				<div class="trust-content">
+					<blockquote class="trust-quote">
+						I&#39;ve tried every wellness app out there. Choicera stands out because it&#39;s not trying to sell you anything – just honest, helpful guidance.
+					</blockquote>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+
+
+
+			</heading-anchors>
+		</main>
+
+		<footer class="footer">
+	<div class="footer-bg">
+		<picture><source media="(min-width: 1024px)" type="image/avif" srcset="/img/2-JeCHQEJF-1200.avif 1200w"><source media="(min-width: 1024px)" type="image/webp" srcset="/img/2-JeCHQEJF-1200.webp 1200w"><source media="(min-width: 1024px)" type="image/png" srcset="/img/2-JeCHQEJF-1200.png 1200w"><source media="(max-width: 1023px)" type="image/avif" srcset="/img/gdv8nnqjzs-400.avif 400w, /img/gdv8nnqjzs-800.avif 800w"><source media="(max-width: 1023px)" type="image/webp" srcset="/img/gdv8nnqjzs-400.webp 400w, /img/gdv8nnqjzs-800.webp 800w"><source media="(max-width: 1023px)" type="image/png" srcset="/img/gdv8nnqjzs-400.png 400w, /img/gdv8nnqjzs-800.png 800w"><img src="content/img/gdv8nnqjzs-400.png" alt="Footer background" loading="lazy" fetchpriority="auto" decoding="async" class="footer-bg-img" width="400" height="400"></picture>
+	</div>
+	<div class="footer-content">
+		<figure class="footer-logo">
+			<img src="/img/logo-large-hexagon.svg" alt="Choicera App Logo" loading="lazy" decoding="async">
+		</figure>
+		<p class="footer-tagline">Discover what&#39;s right – in under 2 minutes</p>
+		<div class="ai-button-container">
+	<a href="https://blue-mud-094c4c903.6.azurestaticapps.net/#/supplements/plan?message=I%20want%20to%20start%20my%20personalized%20supplement%20plan" class="ai-button" role="button" aria-label="Start Now - I want to start my personalized supplement plan" title="Start Now">
+		<div class="ai-button-label t-title-small">Start Now</div>
+		<div class="avatar-container">
+			<div class="ai-avatar compact">
+			<div class="head">
+				<div class="face">
+					<div class="eyes"></div>
+					<div class="mouth"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</a>
+</div>
+
+		<p class="footer-subtitle">Trusted by health-conscious people worldwide</p>
+		<nav class="footer-nav" role="navigation" aria-label="Footer">
+			<a href="/privacy/" class="footer-link">Privacy Policy</a>
+			<a href="/imprint/" class="footer-link">Imprint</a>
+			<a href="/contact/" class="footer-link">Contact</a>
+		</nav>
+	</div>
+</footer>
+
+
+		<!-- This page `/_index/` was built on 2025-09-06T12:19:03.674Z -->
+	</body>
+</html>
