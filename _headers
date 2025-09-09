@@ -1,0 +1,96 @@
+# Netlify Headers für choicera-website
+# Verhindert Caching von HTML-Dateien
+
+# HTML-Dateien nie cachen
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Index-Dateien nie cachen
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Sprachspezifische Index-Dateien nie cachen
+/de/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/es/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/fr/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/it/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/ru/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Service Worker nie cachen
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/simple-sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+# Statische Assets können gecacht werden
+/*.css
+  Cache-Control: public, max-age=31536000
+
+/*.js
+  Cache-Control: public, max-age=31536000
+
+/*.png
+  Cache-Control: public, max-age=31536000
+
+/*.jpg
+  Cache-Control: public, max-age=31536000
+
+/*.jpeg
+  Cache-Control: public, max-age=31536000
+
+/*.gif
+  Cache-Control: public, max-age=31536000
+
+/*.svg
+  Cache-Control: public, max-age=31536000
+
+/*.woff
+  Cache-Control: public, max-age=31536000
+
+/*.woff2
+  Cache-Control: public, max-age=31536000
+
+/*.ttf
+  Cache-Control: public, max-age=31536000
+
+/*.eot
+  Cache-Control: public, max-age=31536000
+
+/*.ico
+  Cache-Control: public, max-age=31536000
+
+# JSON-Dateien kurz cachen
+/*.json
+  Cache-Control: public, max-age=3600
+
+# XML-Dateien kurz cachen
+/*.xml
+  Cache-Control: public, max-age=3600
