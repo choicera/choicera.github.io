@@ -1,381 +1,385 @@
+
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-	
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/blog/firstpost/</loc>
-			<lastmod>2018-05-01</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/blog/firstpost/</loc>
+				<lastmod>2018-05-01</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/blog/secondpost/</loc>
-			<lastmod>2018-07-04</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/blog/thirdpost/</loc>
-			<lastmod>2018-08-24</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/blog/secondpost/</loc>
+				<lastmod>2018-07-04</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/blog/fourthpost/</loc>
-			<lastmod>2018-09-30</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/tags/</loc>
-			<lastmod>2025-09-04</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/blog/thirdpost/</loc>
+				<lastmod>2018-08-24</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/blog/fourthpost/</loc>
+				<lastmod>2018-09-30</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/tags/</loc>
+				<lastmod>2025-09-04</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/about/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/about/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/about/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/blog/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/about/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_index/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/about/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/about/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/about/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/blog/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/about/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/de/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/es/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/fr/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/it/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/affiliate/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/partners/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/imprint/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/privacy/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/ru/contact/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/_about/</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
-	
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
 		
-		<url>
-			<loc>https://k0d342.github.io/choicera-homepage/feed/feed.xml</loc>
-			<lastmod>2025-09-06</lastmod>
-		</url>
-	
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/de/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/es/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/fr/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/it/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/affiliate/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/partners/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/imprint/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/privacy/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/ru/contact/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_about/</loc>
+				<lastmod>2025-09-06</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_index/</loc>
+				<lastmod>2025-09-08</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/_affiliate/</loc>
+				<lastmod>2025-09-09</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://k0d342.github.io/choicera-homepage/feed/feed.xml</loc>
+				<lastmod>2025-09-09</lastmod>
+			</url>
+		
 </urlset>
