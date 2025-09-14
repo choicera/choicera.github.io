@@ -343,20 +343,6 @@
 		
 			
 			<url>
-				<loc>https://choicera.github.io/_index/</loc>
-				<lastmod>2025-09-08</lastmod>
-			</url>
-		
-		
-			
-			<url>
-				<loc>https://choicera.github.io/_affiliate/</loc>
-				<lastmod>2025-09-10</lastmod>
-			</url>
-		
-		
-			
-			<url>
 				<loc>https://choicera.github.io/de/imprint/</loc>
 				<lastmod>2025-09-13</lastmod>
 			</url>
@@ -477,6 +463,20 @@
 			
 			<url>
 				<loc>https://choicera.github.io/pl/imprint/</loc>
+				<lastmod>2025-09-14</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://choicera.github.io/_affiliate/</loc>
+				<lastmod>2025-09-14</lastmod>
+			</url>
+		
+		
+			
+			<url>
+				<loc>https://choicera.github.io/_index/</loc>
 				<lastmod>2025-09-14</lastmod>
 			</url>
 		
