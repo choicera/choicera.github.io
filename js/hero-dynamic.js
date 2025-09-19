@@ -1,13 +1,32 @@
 // Hero Dynamic Text Animation with CSS Custom Properties
 document.addEventListener("DOMContentLoaded", function () {
-	const heroDynamic = document.querySelector(".hero-dynamic");
-	const heroDynamicTexts = document.querySelectorAll(".hero-dynamic-text");
+	const heroDynamicContainers = Array.from(
+		document.querySelectorAll(".hero-dynamic")
+	);
 
-	if (!heroDynamic || heroDynamicTexts.length === 0) {
+	// Subtitle Part2: rotate text without animation (content swap only)
+	const subtitleNode = document.getElementById("subtitle-part2-text");
+	if (subtitleNode) {
+		const variant1 = subtitleNode.textContent || "";
+		const variant2 = subtitleNode.getAttribute("data-variant2") || variant1;
+		const variant3 = subtitleNode.getAttribute("data-variant3") || variant2;
+		const variants = [variant1, variant2, variant3];
+		let subtitleIndex = 0;
+
+		function rotateSubtitle() {
+			subtitleIndex = (subtitleIndex + 1) % variants.length;
+			subtitleNode.textContent = variants[subtitleIndex];
+		}
+
+		// Keep in lockstep with hero-dynamic animation: 0-3s, 3-6s, 6-9s
+		setInterval(rotateSubtitle, 3000);
+	}
+
+	if (heroDynamicContainers.length === 0) {
 		return;
 	}
 
-	function getTextWidth(textContent) {
+	function getTextWidth(textContent, referenceElement) {
 		// Create a span for measurement
 		const tempSpan = document.createElement("span");
 		tempSpan.textContent = textContent;
@@ -19,8 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		tempSpan.style.left = "-9999px";
 		tempSpan.style.whiteSpace = "nowrap";
 
-		if (heroDynamic) {
-			const computedStyle = window.getComputedStyle(heroDynamic);
+		if (referenceElement) {
+			const computedStyle = window.getComputedStyle(referenceElement);
 			tempSpan.style.fontSize = computedStyle.fontSize;
 			tempSpan.style.fontFamily = computedStyle.fontFamily;
 			tempSpan.style.fontWeight = computedStyle.fontWeight;
@@ -33,35 +52,48 @@ document.addEventListener("DOMContentLoaded", function () {
 		const width = tempSpan.offsetWidth;
 		document.body.removeChild(tempSpan);
 
-		return width / 16;
+		return width / 16; // px → rem (assuming 16px root)
 	}
 
-	function updateTextWidths() {
-		// Measure all text widths
+	function updateContainerTextWidths(containerElement) {
+		const containerTexts = containerElement.querySelectorAll(
+			".hero-dynamic-text"
+		);
+		if (containerTexts.length === 0) return;
+
 		const textWidths = [];
-		heroDynamicTexts.forEach((text, index) => {
-			const currentText = text.textContent;
-			const width = getTextWidth(currentText);
-			textWidths.push(width);
+		containerTexts.forEach((textNode) => {
+			const currentText = textNode.textContent || "";
+			const widthRem = getTextWidth(currentText, containerElement);
+			textWidths.push(widthRem);
 		});
 
-		// Set CSS custom properties for each text width
-		heroDynamic.style.setProperty("--text-width-1", textWidths[0] + "rem");
-		heroDynamic.style.setProperty("--text-width-2", textWidths[1] + "rem");
-		heroDynamic.style.setProperty("--text-width-3", textWidths[2] + "rem");
+		// Guard against missing entries
+		const w1 = textWidths[0] || 0;
+		const w2 = textWidths[1] || w1;
+		const w3 = textWidths[2] || w2;
 
-		heroDynamic.style.width = textWidths[0] + "rem";
+		containerElement.style.setProperty("--text-width-1", w1 + "rem");
+		containerElement.style.setProperty("--text-width-2", w2 + "rem");
+		containerElement.style.setProperty("--text-width-3", w3 + "rem");
+
+		// Initialize container width to the first text
+		containerElement.style.width = w1 + "rem";
+	}
+
+	function updateAllContainers() {
+		heroDynamicContainers.forEach(updateContainerTextWidths);
 	}
 
 	// Initial measurement
-	updateTextWidths();
+	updateAllContainers();
 
 	// Debounced resize handler
 	let resizeTimeout;
 	function handleResize() {
 		clearTimeout(resizeTimeout);
 		resizeTimeout = setTimeout(() => {
-			updateTextWidths();
+			updateAllContainers();
 		}, 150); // 150ms debounce
 	}
 
