@@ -469,13 +469,6 @@
 		
 			
 			<url>
-				<loc>https://choicera.github.io/_index/</loc>
-				<lastmod>2025-09-19</lastmod>
-			</url>
-		
-		
-			
-			<url>
 				<loc>https://choicera.github.io/_affiliate/</loc>
 				<lastmod>2025-10-12</lastmod>
 			</url>
@@ -483,8 +476,15 @@
 		
 			
 			<url>
+				<loc>https://choicera.github.io/_index/</loc>
+				<lastmod>2025-10-13</lastmod>
+			</url>
+		
+		
+			
+			<url>
 				<loc>https://choicera.github.io/feed/feed.xml</loc>
-				<lastmod>2025-10-12</lastmod>
+				<lastmod>2025-10-13</lastmod>
 			</url>
 		
 </urlset>
